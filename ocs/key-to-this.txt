@@ -1,0 +1,16 @@
+ars: Pokémon Rising Sun
+pmd: Pokémon Mystery Dungeon: Light in the Shadows
+sets: Splatoon: Eternal Thunderstorm
+sfs: Sonic Fallen Stars
+felm: Fire Emblem: Lake of Mist
+gr: Glitchrune
+
+or: Outrealm
+sp: Snow Phoenix and the Slumbering Dragon
+wma: Weapons of Mass Appeal
+tafo: Tachyon Force
+dtal: Drawn to AfterLife
+nml: National Mana League
+ykc: Yokai City
+
+other: Other original characters

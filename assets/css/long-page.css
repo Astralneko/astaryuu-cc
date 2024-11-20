@@ -1,0 +1,49 @@
+/* Used for long pages, to display button back to top or to individual sections */
+:root {
+	display: grid;
+  grid-template-columns: auto 0; 
+}
+
+.top-button {
+  --offset: 50px;
+  
+  position: sticky;
+  bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  place-self: end;
+  
+  cursor: pointer;
+  
+  transition: bottom 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+  
+  background: rgb(10, 10, 10, 0.9);
+  color: inherit;
+  width: 135px;
+  min-width: 135px;
+  border-radius: 20px;
+  /*Quick guide to box-shadow:
+    First two numbers are vertical and horizontal offset.
+    Third number is how far to spread the fuzzy effect.
+    Fourth number is how much solid border/shadow there should be before the fuzzy effect begins.
+  */
+  box-shadow: 0px 0px 15px 2px #42c6ff;
+  float: left;
+}
+
+.top-button:hover {
+  background: rgb(40,40,40,0.9);
+  color: #8ff;
+}
+
+.top-button .main-inner {
+  padding: 0px;
+}
+
+.top-button .main-inner p {
+  text-align: center;
+}
+
+.hidden-button {
+  bottom: -180px;
+}

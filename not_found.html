@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Found</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <h1>Page Not Found</h1>
+    <p>The requested page was not found.</p>
+  </body>
+</html>
+-->
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <meta content="width=device-width" name="viewport">
+    <meta content="#000000" name="theme-color">
+    <meta content="noindex" name="robots">
+    <!-- Embed information - for Discord, Twitter, etc -->
+    <meta name="description" content="the website of Astaryuu" />
+    <meta property="og:site_name" content="Star Dragon's Den" />
+    <meta property="og:title" content="Star Dragon's Den" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="the website of Astaryuu" />
+    <!-- Image information -->
+    <meta property="og:image" content="/assets/images/astral_banner.png" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="800" />
+    <!-- Url -->
+    <meta property="og:url" content="https://astaryuu.neocities.org/" />
+    <meta property="twitter:card" content="/assets/images/astral_homepage" />
+    <!-- Links for site functionality and appearance -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+    <title>room_dogcheck</title>
+    <link href="https://deltarune.com/assets/css/extra.css?1668902517" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <main>
+      <script crossorigin="anonymous" integrity="sha512-yBpuflZmP5lwMzZ03hiCLzA94N0K2vgBtJgqQ2E1meJzmIBfjbb7k4Y23k2i2c/rIeSUGc7jojyIY5waK3ZxCQ==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.slim.min.js"></script>
+      <script crossorigin="anonymous" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+      <div id="center">
+        <div class="dog" id="dog_sleep">
+          <img alt="Sleeping dog" class="dog1" src="https://deltarune.com/assets/images/dog-sleep.png">
+          <img alt="Sleeping dog" class="dog2" src="https://deltarune.com/assets/images/dog-sleep.gif">
+        </div>
+        <div class="dog hidden" id="dog_maraca">
+          <img alt="Maraca dog" class="dog1" src="https://deltarune.com/assets/images/dog-maraca.png">
+          <img alt="Maraca dog" class="dog2" src="https://deltarune.com/assets/images/dog-maraca.gif">
+        </div>
+      </div>
+      <style>  .dog {    min-width: 320px;    max-width: 100%;    min-height: 320px;    max-height: 100%;    position: relative;    color: black;    cursor: pointer;  }  .dog img {    position: absolute;    height: 100%;    width: 100%;    object-fit: contain;    image-rendering: pixelated;  }  .dog2 {    opacity: 0;  }</style>
+      <script>  var maraca = false;    var results = new Howl({    src: ['https://deltarune.com/assets/audio/results.ogg', 'https://deltarune.com/assets/audio/results.mp3'],    volume: 0.5,    loop: true  });    var baci = new Howl({    src: ['https://deltarune.com/assets/audio/baci_perugina2.ogg', 'https://deltarune.com/assets/audio/baci_perugina2.mp3'],    volume: 0.5,    loop: true  });    $(function() {    var r = Math.random();    if (Math.random() >= 0.95) {      $('#dog_sleep').addClass('hidden');      $('#dog_maraca').removeClass('hidden');      maraca = true;    }  });    $(document).on('click', '.dog:not(.playing)', function() {    if (maraca) {      baci.play();    } else {      results.play();    }    $('.dog').addClass('playing');    $('.dog1').css('opacity', 0);    $('.dog2').css('opacity', 1);  });    $(document).on('click', '.dog.playing', function() {    if (maraca) {      baci.pause();    } else {      results.pause();    }    $('.dog').removeClass('playing');    $('.dog1').css('opacity', 1);    $('.dog2').css('opacity', 0);  });</script>
+    </main>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7cd0b7e45822e227","version":"2023.4.0","r":1,"token":"377f50f2716b474ea394c9bbd3aaef87","si":100}' crossorigin="anonymous"></script>
+</body></html>

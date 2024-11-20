@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Dragon's Den</title>
+    <!-- Embed information - for Discord, Twitter, etc -->
+    <meta name="description" content="the website of Astaryuu" />
+    <meta property="og:site_name" content="Astralneko's Den" />
+    <meta property="og:title" content="Rokadong Dictionary" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="the words of Rokadong, an artlang by Astaryuu" />
+    <!-- Image information -->
+    <meta property="og:image" content="/assets/images/astral_banner.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1680" />
+    <meta property="og:image:height" content="1078" />
+    <!-- Url -->
+    <meta property="og:url" content="https://astaryuu.neocities.org/conlang/rokadong-dictionary" />
+    <meta property="twitter:card" content="/assets/images/astral_banner.png" />
+    <!-- FontAwesome -->
+    <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/regular.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
+    <!-- Links for site functionality and appearance -->
+    <link href="/assets/css/long-page.css" rel="stylesheet" type="text/css" media="all"> <!-- For long pages -->
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+    <link href="/assets/css/ezgallery.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://unpkg.com/photoviewer@3.6.2/dist/photoviewer.css">
+    <link href="/assets/css/transparent-glow.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body onload="convert_roka()"><div class=content>
+  <div class=main>
+    <div class=main-inner>
+      <h1>English-Rokadong Dictionary</h1>
+      <p>Words from the artlang created by Astaryuu</p>
+    </div>
+    <div class=links>
+      <div class=link-first><a href="/">home</a></div>
+      <div class=link><a href="/arcadia">arcadia</a></div>
+      <div class=link><a href="/lutera">lutera</a></div>
+      <div class="link link-active"><a href="/conlang">conlang</a></div>
+      <div class=link><a href="/ocs">ocs</a></div>
+      <div class=link><a href="/devlog">devlog</a></div>
+      <div class=link-last><a href="/whois">who is</a></div>
+    </div>
+    <div class=links>
+      <div class=link-first>rokadong</div>
+      <div class=link><a href="/conlang/rokadong-phonology"><i class="fas fa-microphone"></i></a></div>
+      <div class=link><a href="/conlang/rokadong-orthography"><i class="fas fa-pencil"></i></a></div>
+      <div class="link link-active"><a href="/conlang/rokadong-dictionary"><i class="fas fa-book-open"></i></a></div>
+      <div class=link><a href="/conlang/rokadong-grammar"><i class="fas fa-code"></i></a></div>
+      <div class=link-last><a href="/conlang/rokadong-examples"><i class="fas fa-quote-right"></i></a></div>
+    </div>
+  </div>
+  
+  <div class=main><div class=main-inner>
+    <h2>Dictionary notes</h2>
+    <p>Words are organized by part of speech and then organized alphabetically by English translation, unless otherwise stated. The English word is listed first, followed by the Rokadong word.</p>
+    <p>When a Rokadong word has multiple English translations, they will be listed on the same entry, comma separated, with the earlier one in the alphabet listed first. When an English word has multiple Rokadong translations, these will be listed on separate lines, with the difference in parentheses.</p>
+    <p>See the "Orthography" and "Phonology" pages for how to pronounce the Rokadong words.</p>
+    <p><label>Search dictionary:</label>
+      <input id="input-search" type="search" placeholder="English or Rokadong word..." />
+      <input id="submit-search" type="submit" value="Search" onclick="search_dictionary()" /></p>
+  </div></div>
+  
+  <div class=main-wide><div class=main-inner>
+    <h2>Nouns</h2>
+    <div class=row><div class="col col-33">
+      <h3>A-F</h3>
+      <ul>
+        <li class=word>air, wind - tayu <span class=roka-convert>tyu</span></li>
+        <li class=word>animal - yasha <span class=roka-convert>yx</span></li>
+        <li class=word>anybody - tékrazil <span class=roka-convert>tékqrzil</span></li>
+        <li class=word>anything - tékaca <span class=roka-convert>tékc</span></li>
+        <li class=word>area - favelo <span class=roka-convert>fvelo</span></li>
+        <li class=word>arm - résha <span class=roka-convert>réx</span></li>
+        <li class=word>ash - arya <span class=roka-convert>ary</span></li>
+        <li class=word>back - temba <span class=roka-convert>temb</span></li>
+        <li class=word>band, wrapping - taikun <span class=roka-convert>tïkun</span></li>
+        <li class=word>bark (tree) - sekai <span class=roka-convert>sekï</span></li>
+        <li class=word>beast, mammal - renya <span class=roka-convert>re{</span></li>
+        <li class=word>bee - zanta <span class=roka-convert>znt</span></li>
+        <li class=word>belly - li'at <span class=roka-convert>liat</span></li>
+        <li class=word>bird - tayang <span class=roka-convert>ty]</span></li>
+        <li class=word>blood - ciyá <span class=roka-convert>ciya</span></li>
+        <li class=word>body - cana <span class=roka-convert>cN</span></li>
+        <li class=word>bone - kalá <span class=roka-convert>kla</span></li>
+        <li class=word>boulder - kalih <span class=roka-convert>kli'</span></li>
+        <li class=word>bowl, crater - kawah <span class=roka-convert>kw'</span></li>
+        <li class=word>bracelet - réshataikun <span class=roka-convert>réxtïkun</span></li>
+        <li class=word>branch - tela <span class=roka-convert>tel</span></li>
+        <li class=word>breast - taho <span class=roka-convert>tho</span></li>
+        <li class=word>business/company - unote <span class=roka-convert>üNote</span></li>
+        <li class=word>cave - yumi <span class=roka-convert>yuMi</span></li>
+        <li class=word>century, era - sai <span class=roka-convert>sï</span></li>
+        <li class=word>chip - tamis <span class=roka-convert>tMis</span></li>
+        <li class=word>child - kita <span class=roka-convert>kit</span></li>
+        <li class=word>city - payan-pakan <span class=roka-convert>pynpkn</span>
+          <br>&nbsp;also ilkapakan <span class=roka-convert>ïlqkpkn</span> lit. large town
+          <br>&nbsp;also pola <span class=roka-convert>pol</span></li>
+        <li class=word>claw, nail (organ) - tala <span class=roka-convert>tl</span></li>
+        <li class=word>clay - nevá <span class=roka-convert>Neva</span></li>
+        <li class=word>cloud - tújan <span class=roka-convert>tújn</span></li>
+        <li class=word>craft, creation - sunca <span class=roka-convert>sunc</span></li>
+        <li class=word>crease - kasú <span class=roka-convert>ksú</span></li>
+        <li class=word>creativity, imagination - denzí <span class=roka-convert>denzí</span></li>
+        <li class=word>coin - káyang <span class=roka-convert>kay]</span></li>
+        <li class=word>constellation - sela-sela <span class=roka-convert>selsel</span></li>
+        <li class=word>cup - ruhung <span class=roka-convert>ruhu]</span></li>
+        <li class=word>dagger - sakya <span class=roka-convert>sky</span></li>
+        <li class=word>day - razári <span class=roka-convert>rzari</span></li>
+        <li class=word>day (24 hours; formal) - laza-raza <span class=roka-convert>lzrz</span></li>
+        <li class=word>death - roken <span class=roka-convert>roken</span></li>
+        <li class=word>deity - yúkata <span class=roka-convert>yúkt</span></li>
+        <li class=word>desire - kutá <span class=roka-convert>kuta</span></li>
+        <li class=word>dirt, earth - reka <span class=roka-convert>rek</span></li>
+        <li class=word>dog - tásika <span class=roka-convert>tasik</span></li>
+        <li class=word>down - vana <span class=roka-convert>vN</span></li>
+        <li class=word>dragon - kyurin <span class=roka-convert>kyurin</span></li>
+        <li class=word>dust - kyaha <span class=roka-convert>kyh</span></li>
+        <li class=word>east, right (direction) - tisha <span class=roka-convert>tix</span></li>
+        <li class=word>entrails, guts - hibad <span class=roka-convert>hibd</span></li>
+        <li class=word>sunset, evening - melraza <span class=roka-convert>melqrz</span></li>
+        <li class=word>egg - hiya <span class=roka-convert>hiy</span></li>
+        <li class=word>ear - aram <span class=roka-convert>arm</span>
+        <li class=word>end (of an object) - kah <span class=roka-convert>k'</span>
+        <li class=word>eye - vibri <span class=roka-convert>vibqri</span></li>
+        <li class=word>falcon, kestrel - karélú <span class=roka-convert>krélú</span></li>
+        <li class=word>family - koshah <span class=roka-convert>kox'</span></li>
+        <li class=word>fantasy, dream - rému <span class=roka-convert>réMu</span></li>
+        <li class=word>farm - poiku <span class=roka-convert>poïku</span></li>
+        <li class=word>fat - kaulu <span class=roka-convert>külu</span></li>
+        <li class=word>father* - gaga <span class=roka-convert>gg</span>
+          <br>&nbsp;*kin term</li>
+        <li class=word>feather - fitá <span class=roka-convert>fita</span></li>
+        <li class=word><a href="arcadia/drawn-to-afterlife">figure (species)</a> - fudas <span class=roka-convert>fuds</span></li>
+        <li class=word>field (geography) - kún <span class=roka-convert>kún</span></li>
+        <li class=word>fire - ari <span class=roka-convert>ari</span></li>
+        <li class=word>fish - décan <span class=roka-convert>décan</span></li>
+        <li class=word>flea, louse - tenfíl <span class=roka-convert>tenfíl</span></li>
+        <li class=word>flower - tasha <span class=roka-convert>tx</span></li>
+        <li class=word>fog, mist - jihká <span class=roka-convert>ji'ka</span></li>
+        <li class=word>food - kogunaka <span class=roka-convert>koguNk</span></li>
+        <li class=word>foot - vale <span class=roka-convert>vle</span></li>
+        <li class=word>fox - yangkel <span class=roka-convert>y]kel</span></li>
+        <li class=word>forest - shirih <span class=roka-convert>xiri'</span></li>
+        <li class=word>forward - peka <span class=roka-convert>pek</span></li>
+        <li class=word>freedom, right - merik <span class=roka-convert>Merik</span></li>
+        <li class=word>friend - zahal <span class=roka-convert>zhl</span></li>
+        <li class=word>frog - samit <span class=roka-convert>sMit</span></li>
+        <li class=word>front (opposite of back) - perkan <span class=roka-convert>perqkn</span>
+        <li class=word>fur, hair - fíra <span class=roka-convert>fíra</span></li>
+        <li class=word>future - zanma <span class=roka-convert>znM</span></li>
+      </ul>
+    </div><div class="col col-33">
+      <h3>G-P</h3>
+      <ul>
+        <li class=word>galaxy - selshan <span class=roka-convert>selqxn</span></li>
+        <li class=word>gate - yúria <span class=roka-convert>yúria</span></li>
+        <li class=word>ghost - yuí <span class=roka-convert>yuï</span></li>
+        <li class=word>glass - núka <span class=roka-convert>Núk</span></li>
+        <li class=word>glacier, tundra - anrikas <span class=roka-convert>anriks</span></li>
+        <li class=word>goal; end (of an event) - yuya <span class=roka-convert>yuy</span>
+        <li class=word>gold - kane <span class=roka-convert>kNe</span></li>
+        <li class=word>grass - pekla <span class=roka-convert>pekql</span></li>
+        <li class=word>grassland, savanna - peklalúca <span class=roka-convert>pekqllúc</span></li>
+        <li class=word>ground - haya <span class=roka-convert>hy</span></li>
+        <li class=word>gull - laurada <span class=roka-convert>lürd</span></li>
+        <li class=word>gun - raisen <span class=roka-convert>rïsen</span></li>
+        <li class=word>gunpowder - raisenrahan <span class=roka-convert>rïsenrhn</span></li>
+        <li class=word>gut (organ) - balyun <span class=roka-convert>blqyun</span></li>
+        <li class=word>hand - laté <span class=roka-convert>lté</span></li>
+        <li class=word>head - gato <span class=roka-convert>gto</span></li>
+        <li class=word>heart - lum <span class=roka-convert>lum</span></li>
+        <li class=word>heaven - rémuan <span class=roka-convert>réMuan</span></li>
+        <li class=word>hell - nikyan <span class=roka-convert>Nikyn</span></li>
+        <li class=word>hide, skin - tétel <span class=roka-convert>tétel</span></li>
+        <li class=word>hole, caldera, crater - kanaz <span class=roka-convert>kNz</span></li>
+        <li class=word>hometown - dasu <span class=roka-convert>dsu</span></li>
+        <li class=word>horn - toro <span class=roka-convert>toro</span></li>
+        <li class=word>hour, o'clock - sáta <span class=roka-convert>sat</span></li>
+        <li class=word>hour - sátago <span class=roka-convert>satgo</span></li>
+        <li class=word>ice - riku <span class=roka-convert>riku</span></li>
+        <li class=word>interval - go <span class=roka-convert>go</span></li>
+        <li class=word>island - teláh <span class=roka-convert>tela'</span></li>
+        <li class=word>iron - serak <span class=roka-convert>serk</span></li>
+        <li class=word>job, occupation - rulá <span class=roka-convert>rula</span></li>
+        <li class=word>joke - sihin <span class=roka-convert>sihin</span></li>
+        <li class=word>jungle, rainforest - atashing <span class=roka-convert>atxi]</span></li>
+        <li class=word><a href="arcadia/drawn-to-afterlife">kanva (species)</a> - kucing <span class=roka-convert>kuci]</span></li>
+        <li class=word>king - sinyas <span class=roka-convert>si{s</span></li>
+        <li class=word>knee - suka <span class=roka-convert>suk</span></li>
+        <li class=word>knife - bakal <span class=roka-convert>bkl</span></li>
+        <li class=word>knowledge - tepú <span class=roka-convert>tepú</span></li>
+        <li class=word>lake - magi <span class=roka-convert>mgi</span></li>
+        <li class=word>land - tanah <span class=roka-convert>tN'</span></li>
+        <li class=word>leaf - tera <span class=roka-convert>ter</span></li>
+        <li class=word>letter (as in an alphabet), symbol - jang <span class=roka-convert>j]</span></li>
+        <li class=word>leg - kera <span class=roka-convert>ker</span></li>
+        <li class=word>life - rai <span class=roka-convert>rï</span></li>
+        <li class=word>light - caya <span class=roka-convert>cy</span>
+        <li class=word>lightning - rauli <span class=roka-convert>rüli</span></li>
+        <li class=word>liver - elmat <span class=roka-convert>ëlMt</span></li>
+        <li class=word>lizard - nyecu <span class=roka-convert>{cu</span></li>
+        <li class=word>love - nyako <span class=roka-convert>{ko</span></li>
+        <li class=word>magic - haku  <span class=roka-convert>hku</span></li>
+        <li class=word>man - dera <span class=roka-convert>der</span></li>
+        <li class=word>meat - kerag <span class=roka-convert>kerg</span></li>
+        <li class=word>metal - towan <span class=roka-convert>town</span></li>
+        <li class=word>mind - kashí <span class=roka-convert>kxí</span></li>
+        <li class=word>minute - vira <span class=roka-convert>vir</span></li>
+        <li class=word>moon - líta <span class=roka-convert>lít</span></li>
+        <li class=word>money - káyang-káyang <span class=roka-convert>kay]kay]</span></li>
+        <li class=word>month - ríta-líta <span class=roka-convert>rítlít</span></li>
+        <li class=word>mother - tata <span class=roka-convert>tt</span>
+          <br>&nbsp;*kin term</li>
+        <li class=word>sunrise, morning - cáraza <span class=roka-convert>carz</span></li>
+        <li class=word>mountain - curak <span class=roka-convert>curk</span></li>
+        <li class=word>mountains, mountain range - fencurakan  <span class=roka-convert>fencurkn</span></li>
+        <li class=word>mouse - kicíng <span class=roka-convert>kicí]</span></li>
+        <li class=word>mouth - vota <span class=roka-convert>vot</span></li>
+        <li class=word>name - kata <span class=roka-convert>kt</span></li>
+        <li class=word>neck - kapo <span class=roka-convert>kpo</span></li>
+        <li class=word>night - lítari <span class=roka-convert>lítri</span></li>
+        <li class=word>nobody - nirazil <span class=roka-convert>Nirzil</span></li>
+        <li class=word>nose - perka <span class=roka-convert>perqk</span></li>
+        <li class=word>north - irikang <span class=roka-convert>ïrik]</span></li>
+        <li class=word>nothing - niki <span class=roka-convert>Niki</span></li>
+        <li class=word>ocean - dahai <span class=roka-convert>dhï</span></li>
+        <li class=word>oil (cooking, e.g. vegetable) - riliki <span class=roka-convert>riliki</span></li>
+        <li class=word>oil (not cooking, e.g. lantern), petroleum - kalia <span class=roka-convert>klia</span></li>
+        <li class=word>osprey - pahah <span class=roka-convert>ph'</span>
+          <br>&nbsp;often used for raptors generally</li>
+        <li class=word>oven - mokó <span class=roka-convert>Mokó</span></li>
+        <li class=word>pace, second - dekage <span class=roka-convert>dekge</span></li>
+        <li class=word>parent - tere'a <span class=roka-convert>terea</span></li>
+        <li class=word>path, way - shan <span class=roka-convert>xn</span></li>
+        <li class=word>past - kugya <span class=roka-convert>kugy</span></li>
+        <li class=word>period (of time) - míhago <span class=roka-convert>Míhgo</span></li>
+        <li class=word>person - razil <span class=roka-convert>rzil</span></li>
+        <li class=word>picture - vópal <span class=roka-convert>vópl</span></li>
+        <li class=word>place - velo <span class=roka-convert>velo</span></li>
+        <li class=word>poison - tako <span class=roka-convert>tko</span></li>
+    </ul>
+    </div><div class="col col-33">
+      <h3>R-Z</h3>
+      <ul>
+        <li class=word>rabbit - kuila <span class=roka-convert>kuïl</span></li>
+        <li class=word>rain - déntuca <span class=roka-convert>déntuc</span></li>
+        <li class=word>reptile - areca <span class=roka-convert>arec</span></li>
+        <li class=word>river - miyo <span class=roka-convert>Miyo</span></li>
+        <li class=word>road - bavo <span class=roka-convert>bvo</span></li>
+        <li class=word>rock, stone - gingka <span class=roka-convert>gi]k</span></li>
+        <li class=word>root - kagu <span class=roka-convert>kgu</span></li>
+        <li class=word>rope - shiro <span class=roka-convert>xiro</span></li>
+        <li class=word>salt - tagi <span class=roka-convert>tgi</span></li>
+        <li class=word>sand - rahan <span class=roka-convert>rhn</span></li>
+        <li class=word>scale - koro <span class=roka-convert>koro</span></li>
+        <li class=word>school - ryuhung <span class=roka-convert>ryuhu]</span></li>
+        <li class=word>sea - suro <span class=roka-convert>suro</span></li>
+        <li class=word>season (time) - tangka <span class=roka-convert>t]k</span></li>
+        <li class=word>seed - liki <span class=roka-convert>liki</span></li>
+        <li class=word><a href="arcadia/drawn-to-afterlife">sketch (species)</a> - karíta <span class=roka-convert>krít</span></li>
+        <li class=word>sky - lezi <span class=roka-convert>lezi</span></li>
+        <li class=word>smoke - fayam <span class=roka-convert>fym</span></li>
+        <li class=word>snake - shuza <span class=roka-convert>xuz</span></li>
+        <li class=word>snow - kúsha <span class=roka-convert>kúx</span></li>
+        <li class=word>something - ungkaca <span class=roka-convert>ü]kc</span></li>
+        <li class=word>star - sela <span class=roka-convert>sel</span></li>
+        <li class=word>steel - táhil <span class=roka-convert>tahil</span></li>
+        <li class=word>step - kage <span class=roka-convert>kge</span></li>
+        <li class=word>stick - rekí <span class=roka-convert>rekí</span></li>
+        <li class=word>stone - júna <span class=roka-convert>júN</span></li>
+        <li class=word>storm - take <span class=roka-convert>tke</span></li>
+        <li class=word>story - yatang <span class=roka-convert>yt]</span></li>
+        <li class=word>speech (general), conversation - doka <span class=roka-convert>dok</span></li>
+        <li class=word>speech (event) - mayotau <span class=roka-convert>myotü</span></li>
+        <li class=word>spirit - hyata <span class=roka-convert>hyt</span></li>
+        <li class=word>spoon - zúngkoi <span class=roka-convert>zúnkoï</span></li>
+        <li class=word>spouse - tilesh <span class=roka-convert>tilex</span></li>
+        <li class=word>sound - jairi <span class=roka-convert>jïri</span></li>
+        <li class=word>south - daijang <span class=roka-convert>dïj]</span></li>
+        <li class=word>sugar - kairi <span class=roka-convert>kïri</span></li>
+        <li class=word>sun - ráza <span class=roka-convert>raz</span></li>
+        <li class=word>taboo - kápu <span class=roka-convert>kapu</span></li>
+        <li class=word>tail - kaham <span class=roka-convert>khm</span></li>
+        <li class=word>thing - kaca <span class=roka-convert>kc</span></li>
+        <li class=word>thing (concrete object) - naka <span class=roka-convert>Nk</span></li>
+        <li class=word>time (temporal) - míha <span class=roka-convert>Míh</span></li>
+        <li class=word>time (instance) - dín <span class=roka-convert>dín</span></li>
+        <li class=word>thunder - shirah <span class=roka-convert>xir'</span></li>
+        <li class=word>tomorrow - kedi <span class=roka-convert>kedi</span></li>
+        <li class=word>tongue (organ) - garash <span class=roka-convert>grx</span></li>
+        <li class=word>tooth - guro <span class=roka-convert>guro</span></li>
+        <li class=word>town - pakan <span class=roka-convert>pkn</span></li>
+        <li class=word>trap - noko <span class=roka-convert>Noko</span></li>
+        <li class=word>tree - yarit <span class=roka-convert>yrit</span></li>
+        <li class=word>up - rama <span class=roka-convert>rM</span></li>
+        <li class=word>vehicle - palinoka <span class=roka-convert>pliNok</span></li>
+        <li class=word>village - aika <span class=roka-convert>aïk</span></li>
+        <li class=word>volcano - aricurak <span class=roka-convert>aricurk</span></li>
+        <li class=word>warrior - nekó <span class=roka-convert>Nekó</span></li>
+        <li class=word>warrior (disgraced) - yatanekó <span class=roka-convert>ytNekó</span></li>
+        <li class=word>warrior (upper class) - tényeko <span class=roka-convert>té{eko</span></li>
+        <li class=word>water - déla <span class=roka-convert>dél</span></li>
+        <li class=word>wealth - magaha <span class=roka-convert>Mgh</span></li>
+        <li class=word>week - penrá <span class=roka-convert>penra</span></li>
+        <li class=word>west, left (direction) - yami <span class=roka-convert>yMi</span></li>
+        <li class=word>wheel - rugong <span class=roka-convert>rugo]</span></li>
+        <li class=word>wing - kitah <span class=roka-convert>kit'</span></li>
+        <li class=word>woman - nora <span class=roka-convert>nor</span></li>
+        <li class=word>wood - téril <span class=roka-convert>téril</span></li>
+        <li class=word>word (spoken) - amaya <span class=roka-convert>amy</span></li>
+        <li class=word>word (written) - jang-jang <span class=roka-convert>j]j]</span></li>
+        <li class=word>world - shika <span class=roka-convert>xik</span></li>
+        <li class=word>year - kótan <span class=roka-convert>kótn</span></li>
+        <li class=word>yesterday - kapa <span class=roka-convert>kp</span></li>
+      </ul>
+    </div></div>
+    <br>
+  </div></div>
+  
+  <div class=main-wide><div class=main-inner>
+    <h2>Verbs</h2>
+    <p><small>All verbs are listed in their infinitive form; reflexive verbs (verbs where the patient is usually the agent) are followed by ká, but in causative may not be reflexive and thus would not have ká</small></p>
+    <div class=row><div class="col col-33">
+      <h3>A-F</h3>
+      <ul>
+        <li class=word>add - sakar <span class=roka-convert>skr</span></li>
+        <li class=word>age - cíkar <span class=roka-convert>cíkr</span></li>
+        <li class=word>allow (an activity), permit - níkadar <span class=roka-convert>Níkdr</span></li>
+        <li class=word>allow (in an area) - naníkadar <span class=roka-convert>NNíkdr</span></li>
+        <li class=word>amaze - akaimar <span class=roka-convert>akïmr</span></li>
+        <li class=word>anger - rútar <span class=roka-convert>rútr</span></li>
+        <li class=word>annoy - taishar <span class=roka-convert>tïxr</span></li>
+        <li class=word>appear - kanvar <span class=roka-convert>knvr</span></li>
+        <li class=word>apologize - mayar jusonghan <span class=roka-convert>myr juso]han</span></li>
+        <li class=word>bathe - salúr ká <span class=roka-convert>slúr ka</span></li>
+        <li class=word>be (copula) - vel <span class=roka-convert>vel</span></li>
+        <li class=word>be careful - lum-lumir <span class=roka-convert>lumlumir</span>
+        <li class=word>become (personal, emotional, physical) - kon ká <span class=roka-convert>kon ka</span>
+          <br>&nbsp;dakonon ká (this verb in NVOL) is Spanish "convertirse en", while this verb in other cases is more in line with "volverse" or "ponerse"</li>
+        <li class=word>become (social, professional) - pikar ká <span class=roka-convert>pikr ka</span></li>
+        <li class=word>bite - nashár <span class=roka-convert>Nxar</span></li>
+        <li class=word>blow - vanir <span class=roka-convert>vNir</span></li>
+        <li class=word>break - karakr <span class=roka-convert>krkqr</span></li>
+        <li class=word>breathe - rahakr <span class=roka-convert>rhkqr</span></li>
+        <li class=word>brush - simbar <span class=roka-convert>simbr</span></li>
+        <li class=word>burn - árir <span class=roka-convert>aarir</span></li>
+        <li class=word>calculate, compute - tyakir <span class=roka-convert>tykir</span></li>
+        <li class=word>can (i.e. be able) - mar <span class=roka-convert>Mr</span></li>
+        <li class=word>change - vakar <span class=roka-convert>vkr</span></li>
+        <li class=word>change or take off clothes - vuráfir <span class=roka-convert>vurafir</span></li>
+        <li class=word>climb - puramir <span class=roka-convert>purMir</span><br>&nbsp;also occasionally used as "come here"</li>
+        <li class=word>cry - lerabar <span class=roka-convert>eLRBR</span></li>
+        <li class=word>come - ratir <span class=roka-convert>rtir</span></li>
+        <li class=word>continue - nyahar <span class=roka-convert>{hr</span></li>
+        <li class=word>count - akidir <span class=roka-convert>akidir</span></li>
+        <li class=word>cut - hamar <span class=roka-convert>hMr</span></li>
+        <li class=word>do - kon <span class=roka-convert>kon</span></li>
+        <li class=word>desire - kutár <span class=roka-convert>kutar</span></li>
+        <li class=word>die - mimir <span class=roka-convert>MiMir</span></li>
+        <li class=word>disgust - burselir <span class=roka-convert>burqselir</span></li>
+        <li class=word>divide - meneir <span class=roka-convert>MeNeïr</span></li>
+        <li class=word>dress; put on clothes - ráfir <span class=roka-convert>rafir</span></li>
+        <li class=word>drink - pangkir <span class=roka-convert>p]kir</span></li>
+        <li class=word>dig - tarekar <span class=roka-convert>trekr</span></li>
+        <li class=word>eat - kogur <span class=roka-convert>kogur</span></li>
+        <li class=word>end - yuyar <span class=roka-convert>yuyr</span></li>
+        <li class=word>escape, run away - nayakr <span class=roka-convert>Nykr</span></li>
+        <li class=word>exist - bar <span class=roka-convert>br</span></li>
+        <li class=word>fall - fáyar ká <span class=roka-convert>fayr ka</span></li>
+        <li class=word>fear - matar <span class=roka-convert>Mtr</span></li>
+        <li class=word>feel (as in touch) - minar <span class=roka-convert>MNr</span></li>
+        <li class=word>feel (emotionally) - taskar <span class=roka-convert>tsqkr</span></li>
+      </ul>
+    </div><div class="col col-33">
+      <h3>F-P</h3>
+      <ul>
+        <li class=word>fight - zetar <span class=roka-convert>eZTR</span></li>
+        <li class=word>fill - lekar <span class=roka-convert>eLKR</span></li>
+        <li class=word>finish - kasir <span class=roka-convert>KiSR</span></li>
+        <li class=word>float - yatayur <span class=roka-convert>YTYuR</span></li>
+        <li class=word>flow - délar <span class=roka-convert>EDLR</span></li>
+        <li class=word>fly - yahitr <span class=roka-convert>YiHTxR</span>
+        <li class=word>freeze - rikur <span class=roka-convert>iRKuR</span></li>
+        <li class=word>fold - kasur <span class=roka-convert>KSuR</span></li>
+        <li class=word>follow (behind) - pugítr <span class=roka-convert>PuIGTxR</span></li>
+        <li class=word>follow (orders) - pugaitir <span class=roka-convert>PuGiAiTR</span></li>
+        <li class=word>forage, search - yatár <span class=roka-convert>YTAR</span></li>
+        <li class=word>get - nyuhar <span class=roka-convert>{uHR</span></li>
+        <li class=word>give - nyukr <span class=roka-convert>{uKxR</span></li>
+        <li class=word>glow - ambar <span class=roka-convert>AmBR</span></li>
+        <li class=word>greet, say hello - zányakir <span class=roka-convert>ZA{iKR</span></li>
+        <li class=word>go - zaya <span class=roka-convert>ZY</span></li>
+        <li class=word>have - ban <span class=roka-convert>Bn</span></li>
+        <li class=word>heal; get better - naukár <span class=roka-convert>NauKAR</span></li>
+        <li class=word>heal; make better - nauhar <span class=roka-convert>NauHR</span></li>
+        <li class=word>hear - telar <span class=roka-convert>eTLR</span></li>
+        <li class=word>hit - vibir <span class=roka-convert>iViBR</span></li>
+        <li class=word>hold - asur <span class=roka-convert>ASuR</span></li>
+        <li class=word>hunt - jonyar <span class=roka-convert>Jo{R</span></li>
+        <li class=word>introduce - zazávakir <span class=roka-convert>ZZAViKR</span></li>
+        <li class=word>kill (general) - jóngkar <span class=roka-convert>JO]KR</span></li>
+        <li class=word>kill (in battle) - rúcanir <span class=roka-convert>RUCiNR</span></li>
+        <li class=word>know - tepúr <span class=roka-convert>eTPUR</span></li>
+        <li class=word>laugh - sihir <span class=roka-convert>iSiHR</span></li>
+        <li class=word>learn - kayúr <span class=roka-convert>KYUR</span></li>
+        <li class=word>lie (prone) - shabar <span class=roka-convert>QBR</span></li>
+        <li class=word>like/please - gítar <span class=roka-convert>IGTR</span><br>&nbsp;note: the agent is the thing being liked</li>
+        <li class=word>live - tengkur <span class=roka-convert>eTnKuR</span></li>
+        <li class=word>love (romantic) - nyakur <span class=roka-convert>{Ko</span></li>
+        <li class=word>make (as in, make x do y) - tenar <span class=roka-convert>eTNR</span></li>
+        <li class=word>make (as in, craft) - volar <span class=roka-convert>VoLR</span></li>
+        <li class=word>make dirty - kyanyar <span class=roka-convert>KY{R</span></li>
+        <li class=word>make happy - hanyar <span class=roka-convert>H{R</span></li>
+        <li class=word>move - tákr <span class=roka-convert>TAKxR</span></li>
+        <li class=word>multiply - kasur <span class=roka-convert>KSuR</span></li>
+        <li class=word>name - katar <span class=roka-convert>KTR</span></li>
+        <li class=word>poison - takor <span class=roka-convert>TKoR</span></li>
+        <li class=word>play - shikar <span class=roka-convert>iQKR</span></li>
+        <li class=word>push - salar <span class=roka-convert>SLR</span></li>
+        <li class=word>pull - furar <span class=roka-convert>FuRR</span></li>
+      </ul>
+    </div><div class="col col-33">
+      <h3>R-Z</h3>
+      <ul>
+        <li class=word>repeat - noisir <span class=roka-convert>NoiAiSR</span></li>
+        <li class=word>rest - indar ká <span class=roka-convert>iAnDR KA</span></li>
+        <li class=word>ride - palir <span class=roka-convert>PiLR</span></li>
+        <li class=word>rot - shícar <span class=roka-convert>IQiCR</span></li>
+        <li class=word>rub - letar <span class=roka-convert>eLTR</span></li>
+        <li class=word>run - lurukr <span class=roka-convert>RuRuKxR</span></li>
+        <li class=word>sadden - mawíkr <span class=roka-convert>MIWKxR</span></li>
+        <li class=word>say - mayar <span class=roka-convert>MYR</span></li>
+        <li class=word>scratch - itakr <span class=roka-convert>iATKxR</span></li>
+        <li class=word>see - lápr<span class=roka-convert>LAPxR</span></li>
+        <li class=word>serve - piyokar <span class=roka-convert>iPYoKR</span></li>
+        <li class=word>set (place, rest) - indar <span class=roka-convert>iAnDR</span></li>
+        <li class=word>sew - corar <span class=roka-convert>CoRR</span></li>
+        <li class=word>show - yúkar <span class=roka-convert>YUKR</span></li>
+        <li class=word>sing - medar <span class=roka-convert>eMDR</span></li>
+        <li class=word>sit - febar ká <span class=roka-convert>eFBR KA</span></li>
+        <li class=word>smell - lepir <span class=roka-convert>eLiPR</span></li>
+        <li class=word>sleep - jibakr <span class=roka-convert>iJBKxR</span></li>
+        <li class=word>speak - garar <span class=roka-convert>GRR</span></li>
+        <li class=word>spit - pukar <span class=roka-convert>PuKR</span></li>
+        <li class=word>split - meneir <span class=roka-convert>eMeNiAR</span></li>
+        <li class=word>squeeze - parmar <span class=roka-convert>PRxMR</span></li>
+        <li class=word>stab - carar <span class=roka-convert>CRR</span></li>
+        <li class=word>stand - furir ká <span class=roka-convert>FuiRR KA</span></li>
+        <li class=word>start - tanar <span class=roka-convert>TNR</span></li>
+        <li class=word>stop - penar <span class=roka-convert>ePNR</span></li>
+        <li class=word>subtract, take away - tupar <span class=roka-convert>TuPR</span></li>
+        <li class=word>suck - kábiar <span class=roka-convert>KaiBAR</span></li>
+        <li class=word>swell - tapanggar <span class=roka-convert>TP]GR</span></li>
+        <li class=word>swim - daizár <span class=roka-convert>DiAZAR</span></li>
+        <li class=word>talk - ferir <span class=roka-convert>eFiRR</span></li>
+        <li class=word>teach - tekayúr <span class=roka-convert>eTNKYUR</span>
+          <br>&nbsp;also: causative <i>kayúr</i></li>
+        <li class=word>tie - andar <span class=roka-convert>AnDR</span></li>
+        <li class=word>think - jingkir <span class=roka-convert>iJniKR</span></li>
+        <li class=word>throw - kazir <span class=roka-convert>KiZR</span></li>
+        <li class=word>touch - gahar <span class=roka-convert>GHR</span></li>
+        <li class=word>trap - nokur <span class=roka-convert>NoKuR</span></li>
+        <li class=word>transform, disguise - bakar <span class=roka-convert>BKR</span></li>
+        <li class=word>treat - mikár <span class=roka-convert>iMKAR</span></li>
+        <li class=word>try - yutar <span class=roka-convert>YuTR</span></li>
+        <li class=word>turn (intransitive) - kirur ká <span class=roka-convert>iKRuR KA</span></li>
+        <li class=word>vomit - pekedr <span class=roka-convert>ePeKDxR</span></li>
+        <li class=word>walk - rukr <span class=roka-convert>RuKxR</span></li>
+        <li class=word>want - fyanar <span class=roka-convert>FYNR</span></li>
+        <li class=word>watch - lelápr <span class=roka-convert>eLLAPxR</span></li>
+        <li class=word>wash - salúr <span class=roka-convert>SLUR</span></li>
+        <li class=word>win - reyar <span class=roka-convert>eRYR</span></li>
+        <li class=word>wipe - barikr <span class=roka-convert>BiRKxR</span></li>
+      </ul>
+    </div></div>
+    <br>
+  </div></div>
+  
+  <div class=main-wide><div class=main-inner>
+    <h2>Adjectives</h2>
+    <p>Includes adpositions and adverbs</p>
+    <div class=row><div class="col col-33">
+      <h3>A-M</h3>
+      <ul>
+        <li class=word>above - béyahik <span class=roka-convert>EBYiHK</span>
+        <li class=word>again - faidín <span class=roka-convert>FiAIDn</span>
+        <li class=word>all - tékuha <span class=roka-convert>ETKuH</span></li>
+        <li class=word>another - fai <span class=roka-convert>FiA</span>
+        <li class=word>at - ai <span class=roka-convert>AiA</span></li>
+        <li class=word>bad - shiyon <span class=roka-convert>iQYon</span></li>
+        <li class=word>back - kaha <span class=roka-convert>KH</span></li>
+        <li class=word>behind - ikaham <span class=roka-convert>iAKHm</span></li>
+        <li class=word>below - bétarek <span class=roka-convert>EBTeRK</span>
+        <li class=word>black - ruvim <span class=roka-convert>RuiVm</span></li>
+        <li class=word>blue - nila <span class=roka-convert>eSTaP</span></li>
+        <li class=word>bright, light (in color) - raze <span class=roka-convert>ReZ</span>
+        <li class=word>cold - iriku <span class=roka-convert>iRKu</span></li>
+        <li class=word>correct, truthful - ishika <span class=roka-convert>iQK</span></li>
+        <li class=word>cyan, teal - korong <span class=roka-convert>KoRo]</span></li>
+        <li class=word>dark - lúta <span class=roka-convert>LUT</span>
+        <li class=word>dirty - bélkyanyar <span class=roka-convert>EBLxKY{R</span>
+          <br>&nbsp;note: this is habitual <i>kyanyar</i></li>
+        <li class=word>dull (as a blade) - tashuk <span class=roka-convert>TQuK</span></li>
+        <li class=word>dry - kayuda <span class=roka-convert>KYuD</span></li>
+        <li class=word>far - ilat <span class=roka-convert>iALT</span></li>
+        <li class=word>fast - harónya <span class=roka-convert>HRO{</span></li>
+        <li class=word>female - nazren <span class=roka-convert>NZxeRn</span></li>
+        <li class=word>female (animal), feminine - toyu <span class=roka-convert>ToYu</span></li>
+        <li class=word>few - mina <span class=roka-convert>iMN</span></li>
+        <li class=word>free - imerik <span class=roka-convert>iAeMiRK</span></li>
+        <li class=word>from - hai <span class=roka-convert>HiA</span></li>
+        <li class=word>full - bélekar <span class=roka-convert>EBeLKn</span>
+          <br>&nbsp;note: this is habitual <i>lekar</i></li>
+        <li class=word>good - jaren <span class=roka-convert>JeRn</span></li>
+        <li class=word>great, high, upper (all as in a title) - tén <span class=roka-convert>ETn</span></li>
+        <li class=word>green - aho <span class=roka-convert>AHo</span></li>
+        <li class=word>heavy - ahtang <span class=roka-convert>A'T]</span></li>
+        <li class=word>high (altitude) - puram <span class=roka-convert>PuRm</span></li>
+        <li class=word>hot - aron <span class=roka-convert>ARon</span></li>
+        <li class=word>in - te <span class=roka-convert>eT</span></li>
+        <li class=word>in front of - perka <span class=roka-convert>ePRxK</span></li>
+        <li class=word>large - ilka <span class=roka-convert>iALxK</span></li>
+        <li class=word>long - ganta <span class=roka-convert>GnT</span></li>
+        <li class=word>low (altitude) - pahang <span class=roka-convert>PH]</span></li>
+        <li class=word>male - daren <span class=roka-convert>DeRn</span></li>
+        <li class=word>male (animal), masculine - baya <span class=roka-convert>BY</span></li>
+        <li class=word>many, some - unya <span class=roka-convert>U{</span></li>
+      </ul>
+    </div><div class="col col-33">
+      <h3>N-Z</h3>
+      <ul>
+        <li class=word>narrow - kéwah <span class=roka-convert>EKW'</span></li>
+        <li class=word>near - ibat <span class=roka-convert>iABT</span></li>
+        <li class=word>next (in sequence) - kiha <span class=roka-convert>iKH</span></li>
+        <li class=word>next (to) - iha <span class=roka-convert>iAH</span></li>
+        <li class=word>nonbinary - ravi'en <span class=roka-convert>RiVeAn</span></li>
+        <li class=word>normal (as in ordinary) - maris <span class=roka-convert>MiRS</span></li>
+        <li class=word>old - cíkapa <span class=roka-convert>ICKP</span>
+          <br>&nbsp;habitual <i>cíkar</i> also is common</li>
+        <li class=word>on bottom - vale <span class=roka-convert>VeL</span></li>
+        <li class=word>on top - ara <span class=roka-convert>AR</span></li>
+        <li class=word>of (belonging to) - to <span class=roka-convert>To</span></li>
+        <li class=word>of (containing) - na <span class=roka-convert>N</span></li>
+        <li class=word>orange - yángfi <span class=roka-convert>YA]iF</span></li>
+        <li class=word>previous (in sequence) - miha <span class=roka-convert>iMH</span></li>
+        <li class=word>pink - alefisha <span class=roka-convert>AeLiFQ</span></li>
+        <li class=word>red - alef <span class=roka-convert>AeLF</span></li>
+        <li class=word>rotten - bélshícar <span class=roka-convert>EBLxIQCR</span>
+          <br>&nbsp;note: this is habitual <i>shícar</i></li>
+        <li class=word>round - kacat <span class=roka-convert>KCT</span></li>
+        <li class=word>sharp (as a blade) - cangka <span class=roka-convert>C]K</span></li>
+        <li class=word>short - hari <span class=roka-convert>HiR</span></li>
+        <li class=word>like, similar to - jo <span class=roka-convert>Jo</span></li>
+        <li class=word>slow - turóni <span class=roka-convert>TuROiN</span></li>
+        <li class=word>small - hita <span class=roka-convert>iHT</span></li>
+        <li class=word>smooth - veda <span class=roka-convert>eVD</span></li>
+        <li class=word>straight - sudíng <span class=roka-convert>SuID]</span></li>
+        <li class=word>tall - canyu <span class=roka-convert>C{u</span></li>
+        <li class=word>thick - teshi <span class=roka-convert>eTiQ</span></li>
+        <li class=word>thin - tingka <span class=roka-convert>iT]K</span></li>
+        <li class=word>through - soka <span class=roka-convert>SoK</span></li>
+        <li class=word>to (place) - koi <span class=roka-convert>KoiA</span></li>
+        <li class=word>violet - líga <span class=roka-convert>ILG</span></li>
+        <li class=word>warm - arín <span class=roka-convert>AIRn</span></li>
+        <li class=word>wet - déná <span class=roka-convert>EDNA</span></li>
+        <li class=word>wide - kati <span class=roka-convert>KiT</span></li>
+        <li class=word>with - are <span class=roka-convert>AeR</span></li>
+        <li class=word>without - takare <span class=roka-convert>TKeR</span></li>
+        <li class=word>white - kihil <span class=roka-convert>iKiHL</span></li>
+        <li class=word>wild - yata <span class=roka-convert>YT</span></li>
+        <li class=word>yellow - sútan <span class=roka-convert>SUTn</span></li>
+        <li class=word>young - shadena <span class=roka-convert>QeDN</span></li>
+      </ul>
+    </div></div>
+    <br>
+  </div></div>
+  
+  <div class=main-wide><div class=main-inner>
+    <h2>Etc.</h2>
+    <p>Honorifics, pronouns, particles, articles, interjections, conjunctions</p>
+    <div class=row><div class="col col-33">
+      <h3>Pros/Hons</h3>
+      <ul>
+        <li class=word>I (self) - ká <span class=roka-convert>KA</span></li>
+        <li class=word>I (familiar) - aya <span class=roka-convert>AY</span></li>
+        <li class=word>I (standard) - nata <span class=roka-convert>NT</span></li>
+        <li class=word>I (formal), royal we - nahata <span class=roka-convert>NHT</span></li>
+        <li class=word>I (humble, to nobility) - pacun <span class=roka-convert>PCun</span></li>
+        <li class=word>I (humble) - piyoka <span class=roka-convert>iPYoK</span></li>
+        <li class=word>I (imposing) - bokah <span class=roka-convert>BoK'</span></li>
+        <li class=word>we (exclusive) - kinah <span class=roka-convert>iKN'</span></li>
+        <li class=word>we (inclusive) - kayari <span class=roka-convert>KYiR</span></li>
+        <li class=word>you (familiar singular unspecified) - zena <span class=roka-convert>eZN</span></li>
+        <li class=word>you (familiar singular male) - zeda <span class=roka-convert>eZD</span>
+          <br>&nbsp;alt. zenada <span class=roka-convert>eZND</span></li>
+        <li class=word>you (familiar singular female) - zenaz <span class=roka-convert>eZNZ</span>
+          <br>&nbsp;alt. zenanaz <span class=roka-convert>eZNNZ</span></li>
+        <li class=word>you (familiar singular non-binary) - zerav <span class=roka-convert>eZRV</span>
+          <br>&nbsp;alt. zehan <span class=roka-convert>eZHn</span>
+          <br>&nbsp;alt. zenarav <span class=roka-convert>eZNRV</span>
+          <br>&nbsp;alt. zenahan <span class=roka-convert>eZNHn</span></li>
+        <li class=word>y'all, you (familiar plural) - zenyaci <span class=roka-convert>eZ{iC</span></li>
+        <li class=word>you (polite singular) - talah <span class=roka-convert>TL'</span>
+          <br>&nbsp;alt. tau <span class=roka-convert>Tau</span></li>
+        <li class=word>you (formal male; lit. "sir") - ludi <span class=roka-convert>LuiD</span></li>
+        <li class=word>you (formal female; lit. "madam") - lunu <span class=roka-convert>LuNu</span></li>
+        <li class=word>you (formal nonbinary) - luvi <span class=roka-convert>LuiV</span></li>
+        <li class=word>you (humble, to government officials, lit. "your Honour") - javital <span class=roka-convert>JiVTL</span></li>
+        <li class=word>you (humble, to nobility, lit. "my lord") - kantunya <span class=roka-convert>KnTu{</span>
+          <br>&nbsp;alt. tau tékuha<span class=roka-convert>Tau ETKuH</span>
+          <br>&nbsp;alt. tauyaci <span class=roka-convert>TauYiC</span></li>
+        <li class=word>he - landa <span class=roka-convert>LnD</span></li>
+        <li class=word>she - lanaz <span class=roka-convert>LNZ</span></li>
+        <li class=word>they (singular) - lanil <span class=roka-convert>LiNL</span></li>
+        <li class=word>it - an <span class=roka-convert>An</span></li>
+        <li class=word>they (plural colloquial) - lanil razil <span class=roka-convert>LiNL RiZL</span></li>
+        <li class=word>they (plural polite) - kamusha <span class=roka-convert>KMuQ</span></li>
+        <li class=word>one (zeroth person) - ika <span class=roka-convert>iK</span></li>
+      </ul>
+    </div><div class="col col-33">
+      <h3>Articles</h3>
+      <ul>
+        <li class=word>that, those - ibi <span class=roka-convert>iAiB</span></li>
+        <li class=word>this, these - ila <span class=roka-convert>iAL</span></li>
+        <li class=word>which, the - zah <span class=roka-convert>Z'</span>
+          <br>&nbsp;as prefix (ibi, ila): zah <span class=roka-convert>ZH</span></li>
+        <li class=word>a, one - ika <span class=roka-convert>iAK</span></li>
+      </ul>
+      <h3>Particles</h3>
+      <ul>
+        <li class=word>yes - vai <span class=roka-convert>ViA</span></li>
+        <li class=word>no (answer) - koi <span class=roka-convert>KoiA</span></li>
+        <li class=word>not (a) (noun negation) - reta <span class=roka-convert>eRT</span></li>
+        <li class=word>not (verb/adjective negation) - takal <span class=roka-convert>TKL</span>
+          <br>&nbsp;alt. tak <span class=roka-convert>TK</span></li>
+        <li class=word>don't (imperative negation) - kihing <span class=roka-convert>iKiH]</span></li>
+        <li class=word>right? (interrogative particle) - kel <span class=roka-convert>eKL</span></li>
+        <li class=word>right? (seeking confirmation) - ré <span class=roka-convert>ER</span></li>
+        <li class=word>eh? (seeking or showing confirmation) - re <span class=roka-convert>eR</span></li>
+        <li class=word>(excited or emphatic particle) - au <span class=roka-convert>au</span></li>
+        <li class=word>you know? (assertive particle) - ru <span class=roka-convert>Ru</span></li>
+        <li class=word>(dubitative particle) - kir <span class=roka-convert>iKR</span></li>
+      </ul>
+    </div><div class="col col-33">
+      <h3>Interjections</h3>
+      <ul>
+        <li class=word>hello - nyau <span class=roka-convert>{au</span>
+        <li class=word>ouch - yao <span class=roka-convert>Yau</span>
+          <br>&nbsp;alt. ai <span class=roka-convert>iA</span></li>
+        <li class=word>hey (attention-grabbing) - re <span class=roka-convert>eeR</span></li>
+        <li class=word>right (sarcastic) - ré <span class=roka-convert>EER</span></li>
+        <li class=word>wow - kir <span class=roka-convert>iKR</span></li>
+        <li class=word>yay, yeah - ayau <span class=roka-convert>AYau</span></li>
+      </ul>
+      <h3>Conjunctions</h3>
+      <ul>
+        <li class=word>because, for - yu <span class=roka-convert>Yu</span></li>
+        <li class=word>and - ta <span class=roka-convert>T</span></li>
+        <li class=word>but - ket <span class=roka-convert>eKT</span></li>
+        <li class=word>or - én <span class=roka-convert>EAn</span></li>
+        <li class=word>or (in negative clauses) - ta'en <span class=roka-convert>TeAn</span></li>
+        <li class=word>so - lí <span class=roka-convert>IL</span></li>
+        <li class=word>than (as in more/less x than) - pa <span class=roka-convert>P</span></li>
+        <li class=word>also - taya <span class=roka-convert>TY</span></li>
+        <li class=word>also (in negative clauses) - kalya <span class=roka-convert>KLxY</span></li>
+        <li class=word>that (connect noun clauses) - bauha <span class=roka-convert>BauH</span>
+          <br>&nbsp;alt. zah <span class=roka-convert>Z'</span></li>
+      </ul>
+    </div></div>
+    <br>
+  </div></div>
+  
+  <div class=main-wide><div class=main-inner>
+    <h2>Untranslateables</h2>
+    <p>Proper nouns etc. that are often-used in Rokadong</p>
+    <div class=row><div class="col col-33">
+      <h3>People</h3>
+      <ul>
+        <li class=word>kanavá <span class=roka-convert>KNVA</span> - refers to Quillanian kanvas</li>
+      </ul>
+    </div><div class="col col-33">
+      <h3>Places</h3>
+      <ul>
+        <li class=word>Kana <span class=roka-convert>KN</span> - mythical homeland of kanva</li>
+      </ul>
+    </div><div class="col col-33">
+      <h3>Etc.</h3>
+      <ul>
+        <li class=word>telajang <span class=roka-convert>eTLJ]</span> - Rokadong script</li>
+        <li class=word>curakjang <span class=roka-convert>CuRKxJ]</span> - Rokadong script</li>
+      </ul>
+    </div></div>
+    <br>
+  </div></div>
+  </div><div class="top-button hidden-button"><div class="main-inner"><p>Back to Top</p></div></div>
+    
+  <div class=footer><div class=footer-inner>
+    <p><a href="https://eggramen.neocities.org/code/css/more/tglow">base by eggramen</a></p>
+  </div></div>
+  
+  <script src="https://unpkg.com/photoviewer@3.6.2/dist/photoviewer.min.js"></script>
+  <script src="/assets/js/gallery.js"></script>
+  <script src="/assets/js/astralneko.js"></script>
+  </body>
+</html>
