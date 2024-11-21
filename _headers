@@ -1,15 +1,12 @@
-/*.png
-  Access-Control-Allow-Origin: *
-
-/assets/fonts/*.ttf
+hoard.astaryuu.cc/assets/fonts/*.ttf
   Access-Control-Allow-Origin: *
   Content-Type: font/ttf
 	
-/assets/fonts/*.otf
+hoard.astaryuu.cc/assets/fonts/*.otf
   Access-Control-Allow-Origin: *
   Content-Type: font/otf
 	
-/assets/fontawesome/webfonts/*.woff2
+hoard.astaryuu.cc/assets/fontawesome/webfonts/*.woff2
   Access-Control-Allow-Origin: *
   Content-Type: font/woff2
 	
