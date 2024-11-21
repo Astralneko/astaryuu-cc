@@ -1,12 +1,12 @@
-hoard.astaryuu.cc/assets/fonts/*.ttf
+https://hoard.astaryuu.cc/assets/fonts/*.ttf
   Access-Control-Allow-Origin: *
   Content-Type: font/ttf
 	
-hoard.astaryuu.cc/assets/fonts/*.otf
+https://hoard.astaryuu.cc/assets/fonts/*.otf
   Access-Control-Allow-Origin: *
   Content-Type: font/otf
 	
-hoard.astaryuu.cc/assets/fontawesome/webfonts/*.woff2
+https://hoard.astaryuu.cc/assets/fontawesome/webfonts/*.woff2
   Access-Control-Allow-Origin: *
   Content-Type: font/woff2
 	
