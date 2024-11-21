@@ -1,13 +1,13 @@
 https://hoard.astaryuu.cc/assets/fonts/*.ttf
-  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Origin: https://mir.astaryuu.cc
   Content-Type: font/ttf
 	
 https://hoard.astaryuu.cc/assets/fonts/*.otf
-  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Origin: https://mir.astaryuu.cc
   Content-Type: font/otf
 	
 https://hoard.astaryuu.cc/assets/fontawesome/webfonts/*.woff2
-  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Origin: https://mir.astaryuu.cc
   Content-Type: font/woff2
 	
 https://:project.pages.dev/*
