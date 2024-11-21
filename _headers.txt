@@ -1,0 +1,14 @@
+/*.png
+  Access-Control-Allow-Origin: *
+
+/assets/fonts/*.ttf
+  Access-Control-Allow-Origin: *
+  Content-Type font/ttf
+	
+/assets/fonts/*.otf
+  Access-Control-Allow-Origin: *
+  Content-Type font/otf
+	
+/assets/fontawesome/webfonts/*.woff2
+  Access-Control-Allow-Origin: *
+  Content-Type font/woff2
