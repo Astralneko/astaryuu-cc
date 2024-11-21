@@ -3,12 +3,15 @@
 
 /assets/fonts/*.ttf
   Access-Control-Allow-Origin: *
-  Content-Type font/ttf
+  Content-Type: font/ttf
 	
 /assets/fonts/*.otf
   Access-Control-Allow-Origin: *
-  Content-Type font/otf
+  Content-Type: font/otf
 	
 /assets/fontawesome/webfonts/*.woff2
   Access-Control-Allow-Origin: *
-  Content-Type font/woff2
+  Content-Type: font/woff2
+	
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
