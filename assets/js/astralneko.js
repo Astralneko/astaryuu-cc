@@ -91,6 +91,47 @@ function convert_roka() {
       x[i].innerHTML = new_string;
     }
 }
+// TODO: do the same for Liðakuin
+
+// Autopopulate ocs page (for redirects only)
+function populateOCsRedirect(destination) {
+	// Add contents to page
+	content_to_load = `<div class=main>
+    <div class=main-inner>
+      <h1>OC Redirect</h1>
+      <p>Linking to Toyhouse...</p>
+    </div>
+    <div class=links>
+      <div class=link-first><a href="/">home</a></div>
+      <div class="link link-active"><a href="/arcadia">arcadia</a></div>
+      <div class=link><a href="/lutera">lutera</a></div>
+      <div class=link><a href="/conlang">conlang</a></div>
+      <div class=link><a href="/ocs">ocs</a></div>
+      <div class=link><a href="/devlog">devlog</a></div>
+      <div class=link-last><a href="/whois">who is</a></div>
+    </div>
+  </div>
+  
+  <div class=main><div class=main-inner>
+
+    <p>If you are not redirected within a few seconds, click <a id=redirect-fail-link">here</a>.</p>
+  </div></div>
+
+    
+  <div class=footer><div class=footer-inner>
+    <p>
+      <a href="https://eggramen.neocities.org/code/css/more/tglow">base by eggramen</a><br>
+    </p>
+  </div></div>`;
+	document.getElementById('page-content').appendChild(content_to_load);
+	// Redirect links
+	document.getElementById('redirect-fail-link').href = destination;
+	window.setTimeout(redirectPage(destination), 3000)
+}
+
+function redirectPage(destination){
+	window.location.href = destination;
+}
 
 // button back to top
 const showOnPx = 200;
