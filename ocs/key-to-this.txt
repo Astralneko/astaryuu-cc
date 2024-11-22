@@ -1,16 +1,18 @@
 ars: Pokémon Rising Sun
+dtal: Drawn to AfterLife
+felm: Fire Emblem: Lake of Mist
+gr: Glitchrune
+kdr: Kirby and the Rising Darkness
+lozfw: Legend of Zelda: Four Winds
+mlbok: Mario & Luigi: Ballad of Kings
+nml: National Mana League
+or: Outrealm
 pmd: Pokémon Mystery Dungeon: Light in the Shadows
 sets: Splatoon: Eternal Thunderstorm
 sfs: Sonic Fallen Stars
-felm: Fire Emblem: Lake of Mist
-gr: Glitchrune
-
-or: Outrealm
 sp: Snow Phoenix and the Slumbering Dragon
-wma: Weapons of Mass Appeal
 tafo: Tachyon Force
-dtal: Drawn to AfterLife
-nml: National Mana League
+wma: Weapons of Mass Appeal
 ykc: Yokai City
 
 other: Other original characters

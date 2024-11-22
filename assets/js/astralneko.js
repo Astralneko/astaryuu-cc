@@ -94,7 +94,7 @@ function convert_roka() {
 // TODO: do the same for Liðakuin
 
 // Autopopulate ocs page (for redirects only)
-function populateOCsRedirect(destination) {
+async function populateOCsRedirect(destination) {
 	// Add contents to page
 	content_to_load = `<div class=main>
     <div class=main-inner>
@@ -114,7 +114,7 @@ function populateOCsRedirect(destination) {
   
   <div class=main><div class=main-inner>
 
-    <p>If you are not redirected within a few seconds, click <a id=redirect-fail-link">here</a>.</p>
+    <p>If you are not redirected within a few seconds, click <a id=redirect-fail-link>here</a>.</p>
   </div></div>
 
     
@@ -123,14 +123,15 @@ function populateOCsRedirect(destination) {
       <a href="https://eggramen.neocities.org/code/css/more/tglow">base by eggramen</a><br>
     </p>
   </div></div>`;
-	document.getElementById('page-content').appendChild(content_to_load);
+	document.getElementById('page-content').innerHTML = content_to_load;
 	// Redirect links
 	document.getElementById('redirect-fail-link').href = destination;
-	window.setTimeout(redirectPage(destination), 3000)
+	await sleep(3000);
+	window.location.href = destination
 }
 
-function redirectPage(destination){
-	window.location.href = destination;
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 // button back to top
