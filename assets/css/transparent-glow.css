@@ -6,36 +6,36 @@
   font-family: "Truth and Ideals";
   font-synthesis: weight style small-caps;
   size-adjust: 160%; /* the new TaI looks a lot smaller at 13.5px font-size, but Kissinger 2 and AH Rokajang do not so */
-  src: local("Truth and Ideals"), url("/assets/fonts/Truth And Ideals-Normal2.ttf") format(truetype);
+  src: local("Truth and Ideals"), url("https://hoard.astaryuu.cc/assets/fonts/Truth And Ideals-Normal2.ttf") format(truetype);
 }
 
 @font-face {
   font-family: "Truth and Ideals - Fighting Ideals";
   size-adjust: 160%; /* the new TaI looks a lot smaller at 13.5px font-size, but Kissinger 2 and AH Rokajang do not so */
-  src: local("Truth and Ideals - Fighting Ideals"), url("/assets/fonts/Truth And Ideals-Fighting Ideals-Normal2.ttf") format(truetype);
+  src: local("Truth and Ideals - Fighting Ideals"), url("https://hoard.astaryuu.cc/assets/fonts/Truth And Ideals-Fighting Ideals-Normal2.ttf") format(truetype);
 }
 
 @font-face {
-  font-family: "AH Rokajang";
-  src: local("AH Rokajang"), url("/assets/fonts/ah-rokajang.ttf") format(truetype);
+  font-family: "AH Rokajang Shika";
+  src: local("AH Rokajang Shika"), url("https://hoard.astaryuu.cc/assets/fonts/AHRokajangShika.ttf") format(truetype);
 }
 
 @font-face {
   font-family: "Unifont";
   size-adjust: 117%;
-  src: local("Unifont"), url("/assets/fonts/unifont-15.1.05.otf") format(opentype);
+  src: local("Unifont"), url("https://hoard.astaryuu.cc/assets/fonts/unifont-15.1.05.otf") format(opentype);
 }
 
 @font-face {
   font-family: "Unifont JP";
   size-adjust: 117%;
-  src: local("Unifont JP"), url("/assets/fonts/unifont_jp-15.1.05.otf") format(opentype);
+  src: local("Unifont JP"), url("https://hoard.astaryuu.cc/assets/fonts/unifont_jp-15.1.05.otf") format(opentype);
 }
 
 @font-face {
   font-family: "Unifont Upper";
   size-adjust: 117%;
-  src: local("Unifont Upper"), url("/assets/fonts/unifont_upper-15.1.05.otf") format(opentype);
+  src: local("Unifont Upper"), url("https://hoard.astaryuu.cc/assets/fonts/unifont_upper-15.1.05.otf") format(opentype);
 }
 
 :root {
@@ -271,7 +271,7 @@ input #input-search:focus {
 
 /* Only use if AH Rokajang font is wanted; for Rokadong and Liðakuin PUA use .roka and .lida classes */
 .rokadong-script {
-  font-family: "AH Rokajang", -apple-system, "BlinkMacSystemFont", "San Francisco", "Roboto", Ubuntu, "Helvetica Neue", "Lucida Sans Unicode", "Segoe UI", system-ui, sans-serif;
+  font-family: "AH Rokajang Shika", -apple-system, "BlinkMacSystemFont", "San Francisco", "Roboto", Ubuntu, "Helvetica Neue", "Lucida Sans Unicode", "Segoe UI", system-ui, sans-serif;
 }
 
 .sc, .smallcaps, .sc-code, .smallcaps-code { /* */
