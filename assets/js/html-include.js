@@ -42,4 +42,4 @@ class NguhLink extends HTMLElement {
 		);
 	}
 }
-customElements.define("nguh", NguhLink);
+customElements.define("nguh-link", NguhLink);
