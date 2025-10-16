@@ -1,7 +1,6 @@
 ---
 title: Star Dragon's Den
 description: the website of Astaryuu
-content-format: 1row
 ---
 
 <!DOCTYPE html>
@@ -13,9 +12,9 @@ content-format: 1row
     <!-- Embed information - for Discord, Twitter, etc -->
     <meta name="description" content="the website of Astaryuu" />
     <meta property="og:site_name" content="Star Dragon's Den" />
-    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:title" content="{{ title if title else 'Star Dragon\'s Den' | safe }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:description" content="{{ description if description else 'the website of Astaryuu' | safe }}" />
     <!-- Image information -->
     <meta property="og:image" content="https://hoard.astaryuu.cc/astaryuu/images/astral_banner.png" />
     <meta property="og:image:type" content="image/png" />
@@ -36,7 +35,7 @@ content-format: 1row
   </head>
   <body>
 	<div class=container>
-		<div class="content-{{ content-format }}">
+		<div class="content-{{ container-format if container-format else '1col' | safe }}">
 			{{ content | safe }}
 		</div>
 		<div class=nav-container><div class=nav-inner>

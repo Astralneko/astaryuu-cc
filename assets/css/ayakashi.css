@@ -112,30 +112,35 @@ table td {
 .container {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
+	gap: 20px;
 }
 
-.content-2row {
+.content-2col {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	gap: 20px;
 }
 
-.content-1row {
+.content-1col {
 	display: flex;
 }
 
-.content-3row {
+.content-3col {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
 }
 
-.content-2row.left {
+.content-2col.left {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
+	gap: 20px;
 }
 
-.content-2row.right {
+.content-2col.right {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
+	gap: 20px;
 }
   
 .textbox-links {
@@ -202,20 +207,14 @@ table td {
   */
   box-shadow: 0px 0px 15px 2px #42c6ff;
 }
-
-.textbox-wide {
-  margin: 0 auto;
-  flex-basis: 90%;
-  background: rgb(10, 10, 10, 0.9);
-  border-radius: 20px;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  /*Quick guide to box-shadow:
-    First two numbers are vertical and horizontal offset.
-    Third number is how far to spread the fuzzy effect.
-    Fourth number is how much solid border/shadow there should be before the fuzzy effect begins.
-  */
-  box-shadow: 0px 0px 15px 2px #42c6ff;
+.grid-colspan-2 {
+	grid-column: 1 / span 2;
+}
+.grid-colspan-3 {
+	grid-column: 1 / span 3;
+}
+.grid-colspan-22 {
+	grid-column: 2 / span 2;
 }
 
 .textbox-inner {
@@ -228,7 +227,7 @@ table td {
 .textbox img {
   max-width: 100%;
   height: auto;
-  }
+}
   
 .footer {
   margin: 0 auto;
@@ -238,7 +237,7 @@ table td {
   text-align: center;
   text-shadow: 0 0 5px black, 0 0 3px black;
   font-size: 12px;
-  grid-columns: 1 / span 2;
+  grid-column: 1 / span 2;
 }
 
 input, .code, .sc-code, .smallcaps-code {
@@ -282,9 +281,11 @@ input #input-search:focus {
   height: 100%;
   flex-basis: 25%;
   text-align: right;
-  position: fixed;
-  grid-row-start: 1;
-  
+  grid-column-start: 2;
+}
+
+.nav-container .textbox {
+	position: fixed;
 }
 
 nav ul {
