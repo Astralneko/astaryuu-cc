@@ -1,6 +1,7 @@
 ---
 title: Star Dragon's Den
 description: the website of Astaryuu
+content-format: 1row
 ---
 
 <!DOCTYPE html>
@@ -31,16 +32,43 @@ description: the website of Astaryuu
     <link rel="icon" type="image/png" href="https://hoard.astaryuu.cc/astaryuu/images/favicon.png">
     <link href="https://hoard.astaryuu.cc/astaryuu/css/ezgallery.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="https://unpkg.com/photoviewer@3.6.2/dist/photoviewer.css">
-    <link href="https://hoard.astaryuu.cc/astaryuu/css/transparent-glow.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://hoard.astaryuu.cc/astaryuu/css/ayakashi.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
-	{{ content | safe }}
-    
-  <div class=footer><div class=footer-inner>
-    <p>
-      <a href="https://eggramen.neocities.org/code/css/more/tglow">base by eggramen</a><br>
-    </p>
-  </div></div>
+	<div class=container>
+		<div class="content-{{ content-format }}">
+			{{ content | safe }}
+		</div>
+		<div class=nav-container><div class=nav-inner>
+			<div class=textbox>
+				<div class=textbox-inner>
+					<h3>Sitemap</h3>
+					<nav>
+						<ul>
+							<li><a href="/">Home</a></li>
+							<li><a href="/font/">Font</a></li>
+							<li><a href="/arcadia/">Arcadia</a></li>
+							<li><a href="/lutera/">Lutera</a></li>
+							<li><a href="/fan_aus/">AUs</a></li>
+							<ul>
+								<li><a href="/fan_aus/deltarune/">Glitchrune</a></li>
+								<li><a href="/fan_aus/splatoon/">Eternal Thunderstorm</a></li>
+							</ul>
+							<li><a href="/ocs/">OCs</a></li>
+							<li><a href="/conlang/">Conlangs</a></li>
+							<li><a href="/devlog/">Devlog</a></li>
+							<li><a href="/whois/">Who is</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div></div>
+		</div>
+		<div class=footer><div class=footer-inner>
+			<p>
+				<a href="https://eggramen.neocities.org/code/css/more/tglow">base by eggramen</a><br>
+			</p>
+		</div></div>
+	</div>
   
   <script src="https://unpkg.com/photoviewer@3.6.2/dist/photoviewer.min.js"></script>
   <script src="https://hoard.astaryuu.cc/astaryuu/js/gallery.js"></script>
