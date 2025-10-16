@@ -292,6 +292,19 @@ nav ul {
 	list-style-type: none;
 }
 
+nav li.dropdown {
+	position: relative;
+}
+
+nav li.dropdown-content {
+	display: none;
+	position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
 nav li a {
 	display: block;
 	color: #666;
