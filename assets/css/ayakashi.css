@@ -123,6 +123,7 @@ table td {
 
 .content-1col {
 	display: flex;
+	flex-direction: column;
 }
 
 .content-3col {
@@ -198,8 +199,8 @@ table td {
   flex-basis: 90%;
   background: rgb(10, 10, 10, 0.9);
   border-radius: 20px;
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   /*Quick guide to box-shadow:
     First two numbers are vertical and horizontal offset.
     Third number is how far to spread the fuzzy effect.
@@ -285,24 +286,12 @@ input #input-search:focus {
 }
 
 .nav-container .textbox {
-	position: fixed;
+	position: sticky;
+	overflow: auto;
 }
 
 nav ul {
 	list-style-type: none;
-}
-
-nav li.dropdown {
-	position: relative;
-}
-
-nav li.dropdown-content {
-	display: none;
-	position: absolute;
-}
-
-.dropdown:hover .dropdown-content {
-	display: block;
 }
 
 nav li a {
@@ -316,6 +305,31 @@ nav li a {
 nav li a:hover {
 	color: #9df;
 	transition: color 0.2s ease-in-out;
+}
+
+nav li.dropdown {
+	position: relative;
+}
+
+nav .dropdown-content {
+	display: none;
+	position: absolute;
+	background: rgb(10, 10, 10, 0.9);
+  color: inherit;
+  border-radius: 20px;
+  /*Quick guide to box-shadow:
+    First two numbers are vertical and horizontal offset.
+    Third number is how far to spread the fuzzy effect.
+    Fourth number is how much solid border/shadow there should be before the fuzzy effect begins.
+  */
+  box-shadow: 0px 0px 15px 2px #42c6ff;
+  text-align: right;
+  right: 0;
+  overflow: auto;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
 }
 
 /*Mobile compatibility*/
