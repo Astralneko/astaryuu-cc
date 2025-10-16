@@ -1,6 +1,7 @@
 ---
 title: Star Dragon's Den
 description: the website of Astaryuu
+container: 1col
 ---
 
 <!DOCTYPE html>
@@ -35,7 +36,7 @@ description: the website of Astaryuu
   </head>
   <body>
 	<div class=container>
-		<div class="content-{{ container-format if container-format else '1col' | safe }}">
+		<div class="content-{{ container if container else '1col' | safe }}">
 			{{ content | safe }}
 		</div>
 		<div class=nav-container><div class=nav-inner>
