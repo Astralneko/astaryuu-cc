@@ -286,8 +286,9 @@ input #input-search:focus {
 }
 
 .nav-container .textbox {
-	position: sticky;
 	overflow: auto;
+	position: fixed;
+	width: 20%;
 }
 
 nav ul {
