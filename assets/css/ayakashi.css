@@ -357,4 +357,28 @@ nav .dropdown-content, nav li.dropdown-content a {
 		float: right;
 		width: 50%;
 	}
+	.content-2col {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.content-1col {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.content-3col {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.content-2col.left {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.content-2col.right {
+		display: flex;
+		flex-direction: column;
+	}
 }

@@ -1,126 +1,84 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Dragon's Den</title>
-    <!-- Embed information - for Discord, Twitter, etc -->
-    <meta name="description" content="the website of Astaryuu" />
-    <meta property="og:site_name" content="Star Dragon's Den" />
-    <meta property="og:title" content="Yokai City" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="a modern city from another world" />
-    <!-- Image information -->
-    <meta property="og:image" content="https://hoard.astaryuu.cc/astaryuu/images/astral_banner.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1680" />
-    <meta property="og:image:height" content="1078" />
-    <!-- Url -->
-    <meta property="og:url" content="https://astaryuu.cc/arcadia/yokai-city" />
-    <meta property="twitter:card" content="https://hoard.astaryuu.cc/astaryuu/images/astral_banner.png" />
-    <!-- FontAwesome -->
-    <link href="https://hoard.astaryuu.cc/astaryuu/fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="https://hoard.astaryuu.cc/astaryuu/fontawesome/css/regular.css" rel="stylesheet">
-    <link href="https://hoard.astaryuu.cc/astaryuu/fontawesome/css/solid.css" rel="stylesheet">
-    <link href="https://hoard.astaryuu.cc/astaryuu/fontawesome/css/brands.css" rel="stylesheet">
-    <!-- Links for site functionality and appearance -->
-    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
-    <link href="https://hoard.astaryuu.cc/astaryuu/css/ezgallery.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="https://unpkg.com/photoviewer@3.6.2/dist/photoviewer.css">
-    <link href="https://hoard.astaryuu.cc/astaryuu/css/transparent-glow.css" rel="stylesheet" type="text/css" media="all">
-    <link href="https://hoard.astaryuu.cc/astaryuu/css/arcadia.css" rel="stylesheet" type="text/css" media="all">
-  </head>
-  <body>
-  <div class=main>
-    <div class=main-inner>
-      <h1>Yokai City</h1>
-      <p>fantastical inhabitants of urbanity</p>
-    </div>
-    <div class=textbox-links>
-      <div class=textbox-link-first><a href="/">home</a></div>
-      <div class="textbox-link link-active"><a href="/arcadia">arcadia</a></div>
-      <div class=textbox-link><a href="/lutera">lutera</a></div>
-      <div class=textbox-link><a href="/conlang">conlang</a></div>
-      <div class=textbox-link><a href="/ocs">ocs</a></div>
-      <div class=textbox-link><a href="/devlog">devlog</a></div>
-      <div class=textbox-link-last><a href="/whois">who is</a></div>
-    </div>
-    <div class=textbox-links>
-      <div class="textbox-link-first"><a href="/arcadia/outrealm"><i class="fa-solid fa-star"></i></a></div>
-      <div class=textbox-link><a href="/arcadia/snow-phoenix"><i class="fa-solid fa-paw"></i></a></div>
-      <div class=textbox-link><a href="/arcadia/weapons-mass-appeal"><i class="fa-solid fa-shield-halved"></i></a></div>
-      <div class=textbox-link><a href="/arcadia/tachyon-force"><i class="fa-solid fa-atom"></i></a></div>
-      <div class=textbox-link><a href="/arcadia/drawn-to-afterlife"><i class="fa-solid fa-fire-flame-simple"></i></a></div>
-      <div class="textbox-link link-active"><a href="/arcadia/yokai-city"><i class="fa-solid fa-torii-gate"></i></a></div>
-      <div class=textbox-link><a href="/arcadia/glitchrune"><i class="fa-solid fa-chess-knight"></i></a></div>
-      <div class=textbox-link-last><a href="/arcadia/other"><i class="fa-solid fa-signal"></i></a></div>
-    </div>
-  </div>
-  
-  <div class=main><div class=main-inner>
+---
+layout: outer_chaos_angel.njk
+title: Yokai City
+description: a modern city from another world
+container: 1col
+---
+{% textbox "haslinks" %}
+<h1>Yokai City</h1>
+<p>fantastical inhabitants of urbanity</p>
+{% endtextbox %}{% textbox-link %}
+<div class=textbox-link-first><a href="/">home</a></div>
+<div class="textbox-link link-active"><a href="/arcadia">arcadia</a></div>
+<div class=textbox-link><a href="/lutera">lutera</a></div>
+<div class=textbox-link><a href="/conlang">conlang</a></div>
+<div class=textbox-link><a href="/ocs">ocs</a></div>
+<div class=textbox-link><a href="/devlog">devlog</a></div>
+<div class=textbox-link-last><a href="/whois">who is</a></div>
+</div>
+<div class=textbox-links>
+	<div class="textbox-link-first"><a href="/arcadia/outrealm"><i class="fa-solid fa-star"></i></a></div>
+	<div class=textbox-link><a href="/arcadia/snow-phoenix"><i class="fa-solid fa-paw"></i></a></div>
+	<div class=textbox-link><a href="/arcadia/weapons-mass-appeal"><i class="fa-solid fa-shield-halved"></i></a></div>
+	<div class=textbox-link><a href="/arcadia/tachyon-force"><i class="fa-solid fa-atom"></i></a></div>
+	<div class=textbox-link><a href="/arcadia/drawn-to-afterlife"><i class="fa-solid fa-fire-flame-simple"></i></a></div>
+	<div class="textbox-link link-active"><a href="/arcadia/yokai-city"><i class="fa-solid fa-torii-gate"></i></a></div>
+	<div class=textbox-link><a href="/arcadia/glitchrune"><i class="fa-solid fa-chess-knight"></i></a></div>
+	<div class=textbox-link-last><a href="/arcadia/other"><i class="fa-solid fa-signal"></i></a></div>
+	{% endtextbox-link %}
+	
+	{% textbox %}
     <h2>Overview</h2>
     <p>Centuries ago, the dragon Yamata no Orochi terrorized the land. With it came a swarm of yokai. That was, until seven diviners sealed the dragon away in a pocket realm. Eventually, the memory of the sealed spirits faded, and the two worlds developed separately, but concurrently...</p>
     
     <p>Basically, Yokai City is a modern city in a pocket dimension that cannot normally be exited, as the "livable" area is surrounded by a seemingly-endless desert (think the Super Mario 64 endless stairs). It's inhabited almost exclusively by yokai. On the outside, a group of scientists discovered the pocket dimension, and started experimenting on the yokai inside - specifically, creating thirty-six yokai of their own, Experiments 1 through 36.</p>
-  </div></div>
-  
-  <div class=main-wide><div class=main-inner>
+	{% endtextbox %}
+	
+	{% textbox %}
     <h2>Map</h2>
     <p><i>Coming soon...</i></p>
-  </div></div>
-  
-  <div class=main><div class=main-inner>
+	{% endtextbox %}
+	
+	{% textbox %}
     <h2>Experiment Log</h2>
     <p>basically, where im logging a brief description of all thirty-six Experiments (they are numbered in <a href="/conlang/rokadong-dictionary">Rokadong</a>)</p>
     
     <ol>
-      <li>Aki lion that ate sun</li>
-      <li>De unknown</li>
-      <li>Ra unknown</li>
-      <li>Ko unknown</li>
-      <li>Ming unknown</li>
-      <li>Roka unknown</li>
-      <li>Pita unknown</li>
-      <li>Hari unknown</li>
-      <li>Nani unknown</li>
-      <li>Kani unknown</li>
-      <li>Kero unknown</li>
-      <li>Kerde yuki-onna hybrid (unknown rn)</li>
-      <li>Akira unknown</li>
-      <li>Akiko unknown</li>
-      <li>Akimina unknown</li>
-      <li>Akiroka unknown</li>
-      <li>Akipita unknown</li>
-      <li>Akihari gem kitsune hybrid</li>
-      <li>Akiveni unknown</li>
-      <li>Dekani unknown</li>
-      <li>Dekanaki unknown</li>
-      <li>Dekande unknown</li>
-      <li>Dekanra unknown</li>
-      <li>Dekangko unknown</li>
-      <li>Dekaming unknown</li>
-      <li>Dekanroka unknown</li>
-      <li>Dekampita unknown</li>
-      <li>Dekanhari unknown</li>
-      <li>Dekamveni unknown</li>
-      <li>Rakani unknown</li>
-      <li>Rakanaki unknown</li>
-      <li>Rakande unknown</li>
-      <li>Rakanra unknown</li>
-      <li>Rakangko unknown</li>
-      <li>Rakaming unknown</li>
-      <li>Rakanroka unknown</li>
-    </ol>
-  </div></div>
-  
-  <div class=footer><div class=footer-inner>
-    <p>
-      <a href="https://eggramen.neocities.org/code/css/more/tglow">base by eggramen</a><br>
-    </p>
-  </div></div>
-  
-  <script src="https://unpkg.com/photoviewer@3.6.2/dist/photoviewer.min.js"></script>
-  <script src="https://hoard.astaryuu.cc/astaryuu/js/gallery.js"></script>
-  <script src="https://hoard.astaryuu.cc/astaryuu/js/astralneko.js"></script>
-  </body>
-</html>
+		<li>Aki lion that ate sun</li>
+		<li>De unknown</li>
+		<li>Ra unknown</li>
+		<li>Ko unknown</li>
+		<li>Ming unknown</li>
+		<li>Roka unknown</li>
+		<li>Pita unknown</li>
+		<li>Hari unknown</li>
+		<li>Nani unknown</li>
+		<li>Kani unknown</li>
+		<li>Kero unknown</li>
+		<li>Kerde yuki-onna hybrid (unknown rn)</li>
+		<li>Akira unknown</li>
+		<li>Akiko unknown</li>
+		<li>Akimina unknown</li>
+		<li>Akiroka unknown</li>
+		<li>Akipita unknown</li>
+		<li>Akihari gem kitsune hybrid</li>
+		<li>Akiveni unknown</li>
+		<li>Dekani unknown</li>
+		<li>Dekanaki unknown</li>
+		<li>Dekande unknown</li>
+		<li>Dekanra unknown</li>
+		<li>Dekangko unknown</li>
+		<li>Dekaming unknown</li>
+		<li>Dekanroka unknown</li>
+		<li>Dekampita unknown</li>
+		<li>Dekanhari unknown</li>
+		<li>Dekamveni unknown</li>
+		<li>Rakani unknown</li>
+		<li>Rakanaki unknown</li>
+		<li>Rakande unknown</li>
+		<li>Rakanra unknown</li>
+		<li>Rakangko unknown</li>
+		<li>Rakaming unknown</li>
+		<li>Rakanroka unknown</li>
+	</ol>
+	{% endtextbox %}	
