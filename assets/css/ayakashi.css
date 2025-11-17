@@ -4,9 +4,34 @@
 
 @font-face {
   font-family: "Truth and Ideals";
-  font-synthesis: weight style small-caps;
   size-adjust: 160%; /* the new TaI looks a lot smaller at 13.5px font-size, but Kissinger 2 and AH Rokajang do not so */
-  src: local("Truth and Ideals"), url("https://hoard.astaryuu.cc/astaryuu/fonts/Truth And Ideals-Normal2.ttf") format(truetype);
+  src: local("Truth and Ideals"), url("https://hoard.astaryuu.cc/astaryuu/fonts/Truth And Ideals-Normal.ttf") format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Truth and Ideals";
+  size-adjust: 160%; 
+  src: local("Truth and Ideals"), url("https://hoard.astaryuu.cc/astaryuu/fonts/Truth And Ideals-Bold.ttf") format(truetype);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Truth and Ideals";
+  size-adjust: 160%; 
+  src: local("Truth and Ideals"), url("https://hoard.astaryuu.cc/astaryuu/fonts/Truth And Ideals-Italic.ttf") format(truetype);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Truth and Ideals";
+  size-adjust: 160%; 
+  src: local("Truth and Ideals"), url("https://hoard.astaryuu.cc/astaryuu/fonts/Truth And Ideals-Bold-Italic.ttf") format(truetype);
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
