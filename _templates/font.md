@@ -9,13 +9,13 @@ container: 2col
 (an edit by Astaryuu)
 
 {% endtextbox %}{% textbox-link %}
-<div class="textbox-link-first">[home](/)</div>
-<div class=textbox-link>[arcadia](/arcadia)</div>
-<div class=textbox-link>[lutera](/lutera)</div>
-<div class=textbox-link>[conlang](/conlang)</div>
-<div class=textbox-link>[ocs](/ocs)</div>
-<div class=textbox-link>[devlog](/devlog)</div>
-<div class=textbox-link-last>[who is](/whois)</div>
+<div class="textbox-link-first"><a href="/">home</a></div>
+<div class=textbox-link><a href="/arcadia">arcadia</a></div>
+<div class=textbox-link><a href="/lutera">lutera</a></div>
+<div class=textbox-link><a href="/conlang">conlang</a></div>
+<div class=textbox-link><a href="/ocs">ocs</a></div>
+<div class=textbox-link><a href="/devlog">devlog</a></div>
+<div class=textbox-link-last><a href="/whois">who is</a></div>
 {% endtextbox-link %}{% textbox 2 %}
 Truth and Ideals is the main font used on this website. It is based on Pokémon Black and White's ingame font. This origin is why the font is named as such, as the names of those games refer to the signature Legendary Pokémon, Reshiram and Zekrom, who represent idealism and realism respectively. In fact, the basic Latin script, hangul, and Japanese scripts are derived directly from ripping images from Pokémon Black, White, Black 2, and White 2.
 
@@ -80,8 +80,8 @@ níańíomyr nia ŧanai vi znen mie visaꜥanig, ji̦ƨaima ꞓon jaƶmo̦ ƨo̦
 
 {% endtextbox %}{% textbox %}
 ## Download and history
-**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth And Ideals-Normal.ttf)** - version 0.875
-There are also other styles available: [Bold](https://hoard.astaryuu.cc/astaryuu/fonts/Truth And Ideals-Bold.ttf) [Oblique](https://hoard.astaryuu.cc/astaryuu/fonts/Truth And Ideals-Italic.ttf) [Both](https://hoard.astaryuu.cc/astaryuu/fonts/Truth And Ideals-Bold-Italic.ttf)
+**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Normal.ttf)** - version 0.875
+There are also other styles available: [Bold](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Bold.ttf) [Oblique](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Italic.ttf) [Both](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Bold-Italic.ttf)
 
 The download is current as of October 8, 2025. History below:
 - (April 2023, v.0.2) - Ripped the font from the Pokémon games.
@@ -111,14 +111,16 @@ The download is current as of October 8, 2025. History below:
 - August 2, 2025, v.0.85 - Added Nenevesian script (unlike Rokadong, it isn't precomposed, because it uses combining diacritics).
 - October 8, 2025, v.0.87 - Updated Lunarian script.
 - November 13, 2025, v.0.875 - Fix Nenevesian long vowel, add like 2 more kanji.
+- November 17, 2025, v.0.876 - Add Rokadong double a (finally).
+- December 16, 2025, v.0.90 - Added connecting forms for most Arabic characters that currently exist in the font.
 Future goals:
 - Add support for polytonic Greek. (v.1.1?)
 - Complete support for Arabic and Syriac. (v.1.0?)
 - Possibly add more kanji, as, as you can see above, some of the more popular kanji were not in the font rip.
+
 {% endtextbox %}{% textbox 2 %}
-<span style="font-family: 'Truth and Ideals - Fighting Ideals'">
-## Truth and Ideals: Small Truths/Fighting Ideals
-Truth and Ideals: Small Truths (or just Small Truths) and Truth and Ideals: Fighting Ideals (or just Fighting Ideals) are a small version of Truth and Ideals. In the games Pokémon Black Version 2 and White Version 2, this font displays while in battle for text such as Pokémon nicknames - which can contain any character in the language the game is being played in.
+## <span style="font-family: 'Truth and Ideals - Fighting Ideals'">Truth and Ideals: Small Truths/Fighting Ideals</span>
+<span style="font-family: 'Truth and Ideals - Fighting Ideals'">Truth and Ideals: Small Truths (or just Small Truths) and Truth and Ideals: Fighting Ideals (or just Fighting Ideals) are a small version of Truth and Ideals. In the games Pokémon Black Version 2 and White Version 2, this font displays while in battle for text such as Pokémon nicknames - which can contain any character in the language the game is being played in.
 
 Therefore, the small font must be as featured as the main font, and as main Truth and Ideals updates the main font to support way more scripts, so do these fonts for the small font. (As expected, the name Fighting Ideals is a reference to the location where it appears: in battle.)
 
@@ -130,7 +132,7 @@ Additionally, because Fighting Ideals is not the main font, it is not as far alo
 
 For now, only Fighting Ideals is included on this website. Small Truths will be added later, once Fighting Ideals is more caught up with Truth and Ideals.
 
-**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth And Ideals-Fighting Ideals-Normal2.ttf)** - version 0.40
+**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Fighting Ideals-Normal2.ttf)** - version 0.40
 
 The download is current as of August 14, 2024.
 - (April 2023, v.0.2) - Ripped the font from the Pokémon games.

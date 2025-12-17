@@ -1,4 +1,6 @@
 export default async function(eleventyConfig) {
+	// Enable linkify
+	
 	// Shortcodes used in content templates
 	eleventyConfig.addPairedShortcode("textbox", async function(contents){
 	const class_name = (typeof arguments[1] !== 'number' || arguments[1] === 0) ? "textbox" : `textbox grid-colspan-${arguments[1]}`
