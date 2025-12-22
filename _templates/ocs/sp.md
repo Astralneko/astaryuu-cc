@@ -11,5 +11,5 @@ Characters from the world of [Snow Phoenix and the Slumbering Dragon](/arcadia/s
 {% endtextbox %}
 {% oc-link-div "Snow" "/assets/icons/snow.png" "/ocs/sp/snow" "bolt" "moon" "right" %}
 {% oc-link-div "Patchtail" "/assets/icons/patchtail.png" "/ocs/sp/patchtail" "mountain" "magnifying-glass" "left" %}
-{% oc-link-div "Machigai.gif" "/assets/icons/machigai" "/ocs/sp/machigai" "bolt" "moon" "right" %}
+{% oc-link-div "Machigai" "/assets/icons/machigai.gif" "/ocs/sp/machigai" "bolt" "moon" "right" %}
 {% oc-link-div "Mint" "/assets/icons/coming_soon.png" "/ocs/sp/mint" "mountain" "magnifying-glass" "left" %}
