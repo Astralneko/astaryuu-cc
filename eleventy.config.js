@@ -36,7 +36,7 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addShortcode("oc-link-div", async function(name, filelink, characterlink, symbol1, symbol2, direction){
 		return `	<div class="textbox">
 		<div class="textbox-inner">
-			<a href=${characterlink}><img src="${filelink}" width=40% style="float:${direction}; margin: 2.5%" class=image-link></a>
+			<a href="${characterlink}"><img src="${filelink}" width=40% style="float:${direction}; margin: 2.5%" class=image-link></a>
 			<h2 style="text-align:${direction}">${name}<br>
 			<i class="fas fa-${symbol1}"></i><i class="fas fa-${symbol2}"></i></h2>
 		</div>
