@@ -16,4 +16,4 @@ Characters from the world of [Tachyon Force](/arcadia/tachyon-force/), a future 
 {% oc-link-div "Erin" "/assets/icons/erin.png" "/ocs/or/erin" "cards" "dice" "right" %}
 {% oc-link-div "Sudo" "/assets/icons/sudo.png" "/ocs/or/sudo" "staff" "display-code" "left" %}
 {% oc-link-div "Sora" "/assets/icons/sora.png" "/ocs/or/sora" "network-wired" "cat" "right" %}
-{% oc-link-div "Lucius" "/assets/images/oc_coming_soon.png" "/ocs/or/lucius" "hammer-war" "shield-dog" "left" %}
+{% oc-link-div "Lucius" "/assets/icons/coming_soon.png" "/ocs/or/lucius" "hammer-war" "shield-dog" "left" %}
