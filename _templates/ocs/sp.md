@@ -9,7 +9,7 @@ container: 4col
 Characters from the world of [Snow Phoenix and the Slumbering Dragon](/arcadia/snow-phoenix/), a fantastical realm built on the back of a world-dragon.
 
 {% endtextbox %}
-{% oc-link-div "Snow" "/assets/icons/snow" "/ocs/sp/snow" "bolt" "moon" "right" %}
-{% oc-link-div "Patchtail" "/assets/icons/patchtail" "/ocs/sp/patchtail" "mountain" "magnifying-glass" "left" %}
-{% oc-link-div "Machigai" "/assets/icons/machigai" "/ocs/sp/machigai" "bolt" "moon" "right" %}
-{% oc-link-div "Mint" "/assets/icons/coming_soon" "/ocs/sp/mint" "mountain" "magnifying-glass" "left" %}
+{% oc-link-div "Snow" "/assets/icons/snow.png" "/ocs/sp/snow" "bolt" "moon" "right" %}
+{% oc-link-div "Patchtail" "/assets/icons/patchtail.png" "/ocs/sp/patchtail" "mountain" "magnifying-glass" "left" %}
+{% oc-link-div "Machigai.gif" "/assets/icons/machigai" "/ocs/sp/machigai" "bolt" "moon" "right" %}
+{% oc-link-div "Mint" "/assets/icons/coming_soon.png" "/ocs/sp/mint" "mountain" "magnifying-glass" "left" %}
