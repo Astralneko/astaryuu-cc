@@ -104,10 +104,10 @@ Alice can "connect" or "link" to any sentient being, described as a "non-invasiv
 		<iframe src="https://www.youtube-nocookie.com/embed/P2uAts6PmSg?modestbranding=1" frameborder="0" style="position: absolute; width: 2.1em; height: 1.7em; margin-left:15px; margin-top: 12px; z-index: 1; opacity: 0;"></iframe>
 		
 		<!-- //////////////////// HEX BUTTON //////////////////// -->
-		<div class="card border-0 p-2" style="
+		<div style="
 		background: #6200e4;
 		clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); height: 50px; width: 60px;">
-			<i class="fal fa-cassette-tape m-auto text-white fa-2x"></i>
+			<i class="fal fa-cassette-tape fa-2x" style="margin: auto;"></i>
 		</div>
 		
 	</div>
