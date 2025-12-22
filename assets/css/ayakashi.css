@@ -157,6 +157,12 @@ table td {
 	gap: 20px;
 }
 
+.content-4col {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 20px;
+}
+
 .content-2col.left {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
@@ -238,6 +244,9 @@ table td {
 }
 .grid-colspan-3 {
 	grid-column: 1 / span 3;
+}
+.grid-colspan-4 {
+	grid-column: 1 / span 4;
 }
 .grid-colspan-22 {
 	grid-column: 2 / span 2;
@@ -403,6 +412,11 @@ nav .dropdown-content, nav li.dropdown-content a {
 	}
 
 	.content-2col.right {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.content-4col {
 		display: flex;
 		flex-direction: column;
 	}

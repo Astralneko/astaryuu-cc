@@ -35,9 +35,11 @@ container: 1col
   </head>
   <body>
 	<div class=container>
-		<div class="content-{{ container if container else '1col' | safe }}">
-			{{ content | safe }}
-		</div>
+		<main>
+			<div class="content-{{ container if container else '1col' | safe }}">
+				{{ content | safe }}
+			</div>
+		</main>
 		<div class=nav-container><div class=nav-inner>
 			<div class=textbox>
 				<div class=textbox-inner>
