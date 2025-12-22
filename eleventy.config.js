@@ -67,8 +67,7 @@ export default async function(eleventyConfig) {
 		} else {
 			thumb_link = image_link
 		}
-		return `<p style="font-size: 50%"><a href="/${thumb_link}/"><img src="/${image_link}/" style="border-radius: 6px; border: 3px solid #fff;"></a>
-		<br>${credit}</p>`
+		return `<a href="/${thumb_link}/"><img src="/${image_link}" style="border-radius: 6px; border: 3px solid #fff;"><br>${credit}</a>`
 	});
 };
 

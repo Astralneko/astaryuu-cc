@@ -8,47 +8,47 @@ character-description: the fairy of the empty void
 ---
 {% textbox %}
 # Traits
-<table style="border:0px; width: 90%;">
+<table style="width: 90%;">
 	<tr>
-		<th><p style="margin: 20px; text-align: center;">
-			Species
-		</p></th><td><p style="margin: 20px; text-align: left;">
+		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
+			<b>Species</b>
+		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
 			Fairy
 		</p></td>
 	</tr><tr>
-		<th><p style="margin: 20px; text-align: center;">
-			Sex
-		</p></th><td><p style="margin: 20px; text-align: left;">
+		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
+			<b>Sex</b>
+		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
 			Female
 		</p></td>
 	</tr><tr>
-		<th><p style="margin: 20px; text-align: center;">
-			Gender
-		</p></th><td><p style="margin: 20px; text-align: left;">
+		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
+			<b>Gender</b>
+		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
 			Feminine
 		</p></td>
 	</tr><tr>
-		<th><p style="margin: 20px; text-align: center;">
-			Age
-		</p></th><td><p style="margin: 20px; text-align: left;">
+		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
+			<b>Age</b>
+		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
 			22
 		</p></td>
 	</tr><tr>
-		<th><p style="margin: 20px; text-align: center;">
-			Birthdate
-		</p></th><td><p style="margin: 20px; text-align: left;">
+		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
+			<b>Birthdate</b>
+		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
 			May 20th
 		</p></td>
 	</tr><tr>
-		<th><p style="margin: 20px; text-align: center;">
-			Height
-		</p></th><td><p style="margin: 20px; text-align: left;">
+		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
+			<b>Height</b>
+		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
 			Varies, see Abilities
 		</p></td>
 	</tr><tr>
-		<th><p style="margin: 20px; text-align: center;">
-			Designer
-		</p></th><td><p style="margin: 20px; text-align: left;">
+		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
+			<b>Designer</b>
+		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
 			Astaryuu
 		</p></td>
 	</tr>
@@ -62,6 +62,13 @@ Alice's special powers are void-based in nature. She uses void energy for a coup
 But perhaps most special is her ability to link to a regular being - a trait shared among ultradimensional beings such as herself. Alice can "link" to certain people and then can phase into them, giving them a fraction of her power (since all the power would be a one-way ticket to the void). She may also partially unphase in order to talk to the linked person in private. Only people that are linked to Alice can use her scythe; even if one manages to lift it without Alice, trying to use it will cause void feedback - in other words, the person that did it would disappear.
 {% endtextbox %}{% textbox 2 %}
 # Backstory
+"My homeland is... nowhere. It was completely empty. The only thing I know about where it could possibly be is that it probably isn't exactly the sky. Other than me, of course. Yes, I fell from the Avalonian sky. Yes, I am the Shooting Star Girl. But the Avalonian sky has so many stars... maybe they're farther away in person? I wish I knew for certain.
+
+"What I do know for certain is that I could manipulate the area. It didn't come to me immediately. But, seeing as there was nobody and nothing else there, I really didn't have anything else to do. So I learned to shape the void into someplace more... Homely. A little base, with some toys, fake food, all kinds of stuff... Sometimes, I could even trick myself into hearing the dolls I made or exploring their worlds.
+
+"That's not to say it was perfect. Sometimes, these other beings would appear. Scariest of all was a glowing yellow eagle. It could swallow me whole. But they didn't seem to notice me. Not even when I was right in front of it...
+
+"That's what knocked me out of the sky, I think. That eagle, glowing like the sun..."
 {% endtextbox %}{% textbox %}
 # Abilities
 ## Projection
@@ -120,7 +127,7 @@ Alice can "connect" or "link" to any sentient being, described as a "non-invasiv
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20180714.jpg" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20180716.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20180718-2.jpg" %}
-{% oc-image "<a href='https://toyhou.se/Oyasumii'>Oyasumii</a>" "assets/oc-art/alice/oyasumii-20180721.jpg" %}
+{% oc-image "Oyasumii" "assets/oc-art/alice/oyasumii-20180721.jpg" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20180724.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20180902.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20180913.jpg" %}
@@ -129,9 +136,9 @@ Alice can "connect" or "link" to any sentient being, described as a "non-invasiv
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20181021.jpg" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20181105.jpg" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20181109.png" %}
-{% oc-image "<a href='https://toyhou.se/NatalieViola'>NatalieViola</a>" "assets/oc-art/alice/natalieviola-20181111.jpg" %}
+{% oc-image "NatalieViola" "assets/oc-art/alice/natalieviola-20181111.jpg" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20181112.png" %}
-{% oc-image "<a href='https://toyhou.se/misnina'>misnina</a>" "assets/oc-art/alice/misnina-20181112.jpg" %}
+{% oc-image "misnina" "assets/oc-art/alice/misnina-20181112.jpg" %}
 
 ## Pokémon Form
 {% oc-image "assets/oc-art/alice/pokemon/astaryuu-20180723.jpg" %}
