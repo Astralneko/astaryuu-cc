@@ -1,13 +1,18 @@
 ---
 layout: outer_ayakashi.njk
 title: John Doe
-description: a character from Astaryuu's project Outrealm
+description: "a character from Astaryuu's project Outrealm"
 container: 3col
 ---
 <div class="textbox grid-colspan-3">
 	<div class=textbox-inner>
 		<img src="/assets/icons/{{ character-icon if character-icon else 'coming_soon'}}" width=40% style="float:right; margin: 2.5%; border-radius: 6px; border: 3px solid #fff;">
-		<h1>{{ character-name if character-name else "John Doe"}}</h1>
+		<h1 style="text-shadow:
+			1px 1px #{% if character-color %}{{ character-outline if character-outline else 'fff' }}{% else %}{{ character-outline if character-outline else '00000000' }}{% endif %},
+			1px -1px #{% if character-color %}{{ character-outline if character-outline else 'fff' }}{% else %}{{ character-outline if character-outline else '00000000' }}{% endif %},
+			-1px -1px #{% if character-color %}{{ character-outline if character-outline else 'fff' }}{% else %}{{ character-outline if character-outline else '00000000' }}{% endif %},
+			-1px 1px #{% if character-color %}{{ character-outline if character-outline else 'fff' }}{% else %}{{ character-outline if character-outline else '00000000' }}{% endif %};
+		color: #{{ character-color if character-color else 'fff'}};">{{ character-name if character-name else "John Doe"}}</h1>
 		<p style="font-size: 0.8rem">an <a href="/ocs/or/">Outrealm</a> character</p>
 		<p>{{ character-description if character-description else "Lorem ipsum dolor sit ahmet."}}</p>
 	</div>

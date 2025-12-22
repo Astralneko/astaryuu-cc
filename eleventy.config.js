@@ -1,5 +1,5 @@
 export default async function(eleventyConfig) {
-	// Enable linkify
+	// Enable markdownit deflist
 	
 	// Shortcodes used in content templates
 	eleventyConfig.addPairedShortcode("textbox", async function(contents){
@@ -42,12 +42,34 @@ export default async function(eleventyConfig) {
 		}
 		return `	<div class="textbox">
 		<div class="textbox-inner">
-			<a href="${characterlink}"><img src="${filelink}" width=40%; min-width: 80px; style="float:${direction}; margin: 2.5%; border-radius: 6px; border: 3px solid #fff;" class=image-link></a>
+			<a href="/${characterlink}/"><img src="${filelink}" width=40%; min-width: 80px; style="float:${direction}; margin: 2.5%; border-radius: 6px; border: 3px solid #fff;" class=image-link></a>
 			<h2 style="text-align:${direction}">${name}<br>
 			<i class="${symbol1}"></i><i class="${symbol2}"></i></h2>
 		</div>
 	</div>`
-	})
+	});
+	
+	eleventyConfig.addPairedShortcode("oc-gallery", async function(contents){
+		return `<div class="textbox grid-colspan-3">
+	<div class=textbox-inner>
+		<div class="ezgallery horizontal">
+			${contents}
+		</div>
+	</div>
+</div>`
+	});
+	
+	// Meant to be used inside oc-gallery
+	eleventyConfig.addShortcode("oc-image", async function(credit, image_link, thumb_link){
+		const last_argument = arguments.length - 1
+		if (arguments.length > 2 && (typeof arguments[last_argument] === 'string' || arguments[last_argument] instanceof String)) {
+			thumb_link = arguments[last_argument]
+		} else {
+			thumb_link = image_link
+		}
+		return `<p style="font-size: 50%"><a href="/${thumb_link}/"><img src="/${image_link}/" style="border-radius: 6px; border: 3px solid #fff;"></a>
+		<br>${credit}</p>`
+	});
 };
 
 // This named export is optional
