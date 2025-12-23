@@ -43,7 +43,7 @@ export default async function(eleventyConfig) {
 		return `	<div class="textbox" style="width: 100%;">
 		<div class="textbox-inner">
 			<div style="float:${direction}; margin: 2.5%;"> 
-				<a href="/${characterlink}/"><img src="https://astaryuu.cc${filelink}" style="display: block; max-height: 160px; border-radius: 6px; border: 3px solid #fff; margin: auto;" class=image-link></a>
+				<a href="/${characterlink}/"><img src="https://astaryuu.cc${filelink}" style="display: block; max-height: 45%; border-radius: 6px; border: 3px solid #fff; margin: auto;" class=image-link></a>
 			</div>
 			<h2 style="float:${direction}; text-align:${direction}; vertical-align: middle; display: inline;">${name}<br><i class="${symbol1}"></i><i class="${symbol2}"></i></h2>
 		</div>
