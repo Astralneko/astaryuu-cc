@@ -182,12 +182,12 @@ Alice can "connect" or "link" to any sentient being, described as a "non-invasiv
 ## Pokémon Form
 {% endtextbox %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/pokemon/astaryuu-20180723.jpg" %}
-{% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20200421.png" %}
-{% oc-image "<a href='https://toyhou.se/suta'>suta</a>" "assets/oc-art/alice/suta-20200424.png" %}
-{% oc-image "<a href='https://toyhou.se/flarecrows'>flarecrows</a>" "assets/oc-art/alice/flarecrows-20200430.png" %}
-{% oc-image "<a href='https://toyhou.se/HydrangeaLynx'>HydrangeaLynx</a>" "assets/oc-art/alice/hydrangealynx-20200501.png" %}
-{% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20200704.png" %}
-{% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20201103.png" %}
-{% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20210211.png" %}
-{% oc-image "<a href='https://itaku.ee/profile/chikidoodlezz'>chikidoodlezz</a>" "assets/oc-art/alice/chikidoodlezz-20230828.png" %}
-{% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20231027.jpg" %}
+{% oc-image "Astaryuu" "assets/oc-art/alice/pokemon/astaryuu-20200421.png" %}
+{% oc-image "<a href='https://toyhou.se/suta'>suta</a>" "assets/oc-art/alice/pokemon/suta-20200424.png" %}
+{% oc-image "<a href='https://toyhou.se/flarecrows'>flarecrows</a>" "assets/oc-art/alice/pokemon/flarecrows-20200430.png" %}
+{% oc-image "<a href='https://toyhou.se/HydrangeaLynx'>HydrangeaLynx</a>" "assets/oc-art/alice/pokemon/hydrangealynx-20200501.png" %}
+{% oc-image "Astaryuu" "assets/oc-art/alice/pokemon/astaryuu-20200704.png" %}
+{% oc-image "Astaryuu" "assets/oc-art/alice/pokemon/astaryuu-20201103.png" %}
+{% oc-image "Astaryuu" "assets/oc-art/alice/pokemon/astaryuu-20210211.png" %}
+{% oc-image "<a href='https://itaku.ee/profile/chikidoodlezz'>chikidoodlezz</a>" "assets/oc-art/alice/pokemon/chikidoodlezz-20230828.png" %}
+{% oc-image "Astaryuu" "assets/oc-art/alice/pokemon/astaryuu-20231027.jpg" %}
