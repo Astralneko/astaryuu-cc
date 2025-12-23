@@ -57,8 +57,8 @@ export default async function(eleventyConfig) {
 		} else {
 			thumb_link = image_link
 		}
-		return `<div class="textbox" style="aspect-ratio: 1/1">
-		<div class="textbox-inner"><a href="/${image_link}"><img src="/${thumb_link}" style="border-radius: 6px; border: 3px solid #fff; height: 200px; margin: auto;"></a><br>${credit}</div></div>`
+		return `<div class="textbox">
+		<div class="textbox-inner"><a href="/${image_link}"><img src="/${thumb_link}" style="border-radius: 6px; border: 3px solid #fff; height: 200px;"></a><br>${credit}</div></div>`
 	});
 };
 
