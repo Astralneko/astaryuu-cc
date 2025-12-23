@@ -374,7 +374,6 @@ nav li.dropdown {
 
 nav .dropdown-content, nav li.dropdown-content a {
 	display: none;
-	position: absolute;
 	background: rgb(10, 10, 10, 0.9);
 	color: inherit;
 	border-radius: 20px;
@@ -384,7 +383,7 @@ nav .dropdown-content, nav li.dropdown-content a {
 		Fourth number is how much solid border/shadow there should be before the fuzzy effect begins.
 	*/
 	box-shadow: 0px 0px 15px 2px #42c6ff;
-	top: 0px;
+	margin-right: 30px;
 }
 
 .dropdown:hover .dropdown-content {
