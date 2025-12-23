@@ -107,9 +107,9 @@ Alice can "connect" or "link" to any sentient being, described as a "non-invasiv
 		
 		<!-- //////////////////// HEX BUTTON //////////////////// -->
 		<div style="
-		background: #efefef;
+		background: #6200e4;
 		clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); height: 50px; width: 60px;">
-			<p style="text-align: center; vertical-align: middle; margin: auto;"><i class="fal fa-cassette-tape fa-2x"></i></p>
+			<p style="color: #efefef; text-align: center; vertical-align: middle; margin: auto;"><i class="fal fa-cassette-tape fa-2x"></i></p>
 		</div>
 	</div>
 	<!-- //////////////////// MUSIC TITLE AND ARTIST //////////////////// -->
