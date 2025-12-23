@@ -56,7 +56,7 @@ The following are members of the Azure Guild, or otherwise involved in the quest
 {% oc-link-div "Naraka" "/assets/icons/naraka.png" "ocs/pmd/shiri" "money-bill-wave" "mobile-screen" "right" %}
 {% oc-link-div "Shuimo" "/assets/icons/coming_soon.png" "ocs/pmd/shuimo" "gun" "mask" "left" %}
 {% oc-link-div "Sinbad" "/assets/icons/coming_soon.png" "ocs/pmd/sinbad" "keyboard" "cat" "right" %}
-{% placeholder %}
+{% oc-link-div "Kanashi" "/assets/icons/kanashi.png" "ocs/pmd/kanashi" "gun" "mask" "left" %}
 
 {% textbox 4 %}
 ## Other
