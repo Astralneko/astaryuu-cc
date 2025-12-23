@@ -49,16 +49,6 @@ export default async function(eleventyConfig) {
 	</div>`
 	});
 	
-	eleventyConfig.addPairedShortcode("oc-gallery", async function(contents){
-		return `<div class="textbox grid-colspan-3">
-	<div class=textbox-inner>
-		<div class="ezgallery horizontal">
-			${contents}
-		</div>
-	</div>
-</div>`
-	});
-	
 	// Meant to be used inside oc-gallery
 	eleventyConfig.addShortcode("oc-image", async function(credit, image_link, thumb_link){
 		const last_argument = arguments.length - 1
@@ -67,7 +57,8 @@ export default async function(eleventyConfig) {
 		} else {
 			thumb_link = image_link
 		}
-		return `<a href="/${thumb_link}/"><img src="/${image_link}" style="border-radius: 6px; border: 3px solid #fff;"><br>${credit}</a>`
+		return `<div class="textbox">
+		<div class="textbox-inner"><p><a href="/${image_link}"><img src="/${thumb_link}" style="border-radius: 6px; border: 3px solid #fff; width: 90%;"></a><br>${credit}</p></div></div>`
 	});
 };
 

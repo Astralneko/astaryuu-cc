@@ -163,6 +163,13 @@ table td {
 	gap: 20px;
 }
 
+
+.content-5col {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	gap: 20px;
+}
+
 .content-2col.left {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
@@ -239,6 +246,7 @@ table td {
   */
   box-shadow: 0px 0px 15px 2px #42c6ff;
 }
+
 .grid-colspan-2 {
 	grid-column: 1 / span 2;
 }
@@ -248,8 +256,26 @@ table td {
 .grid-colspan-4 {
 	grid-column: 1 / span 4;
 }
+.grid-colspan-5 {
+	grid-column: 1 / span 5;
+}
 .grid-colspan-22 {
 	grid-column: 2 / span 2;
+}
+.grid-colspan-23 {
+	grid-column: 2 / span 3;
+}
+.grid-colspan-24 {
+	grid-column: 2 / span 4;
+}
+.grid-colspan-32 {
+	grid-column: 2 / span 3;
+}
+.grid-colspan-33 {
+	grid-column: 3 / span 3;
+}
+.grid-colspan-42 {
+	grid-column: 4 / span 2;
 }
 
 .textbox-inner {
@@ -365,20 +391,20 @@ nav .dropdown-content, nav li.dropdown-content a {
 	display: block;
 }
 
-/*Mobile compatibility*/
+/* for SD screens, limit grid layout to 2-column formats*/
 @media screen and (max-width: 800px) { 
-	/* Contains site */
-	.container {
-		display: flex;
-		flex-direction: column;
+	.content-3col, .content-2col.left, .content-2col.right, .content-4col, .content-5col {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
 	}
 	
-	.nav-container .textbox {
-		position: static;
-		float: right;
-		width: 50%;
+	.grid-colspan-3, .grid-colspan-4, .grid-colspan-5, .grid-colspan-22, .grid-colspan-23, .grid-colspan-24, .grid-colspan-32, .grid-colspan-33, .grid-colspan-42 {
+		grid-column: 1 / span 2;
 	}
 }
+
+/*Mobile compatibility*/
 @media screen and (orientation: portrait) { 
 	/* Contains site */
 	.container {
@@ -391,32 +417,8 @@ nav .dropdown-content, nav li.dropdown-content a {
 		float: right;
 		width: 50%;
 	}
-	.content-2col {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.content-1col {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.content-3col {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.content-2col.left {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.content-2col.right {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.content-4col {
+	
+	.content-1col, .content-2col, .content-3col, .content-2col.left, .content-2col.right, .content-4col, .content-5col {
 		display: flex;
 		flex-direction: column;
 	}

@@ -13,7 +13,7 @@ A list of characters I've made. Click the links to see each category's character
 <div class=textbox-link><a href="/arcadia">arcadia</a></div>
 <div class=textbox-link><a href="/lutera">lutera</a></div>
 <div class=textbox-link><a href="/conlang">conlang</a></div>
-<div class=textbox-link><a href="/ocs">ocs</a></div>
+<div class="textbox-link textbox-link-active"><a href="/ocs">ocs</a></div>
 <div class=textbox-link><a href="/devlog">devlog</a></div>
 <div class=textbox-link-last><a href="/whois">who is</a></div>
 {% endtextbox-link %}{% textbox %}
