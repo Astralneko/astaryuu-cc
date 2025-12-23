@@ -40,11 +40,12 @@ export default async function(eleventyConfig) {
 		if (!(symbol2.startsWith("fas") || symbol2.startsWith("far") || symbol2.startsWith("fal") || symbol2.startsWith("fad") || symbol2.startsWith("fab"))) {
 			symbol2 = "fas fa-" + symbol2
 		}
-		return `	<div class="textbox">
+		return `	<div class="textbox" style="width: 100%;">
 		<div class="textbox-inner">
-			<a href="/${characterlink}/"><img src="${filelink}" width=40%; min-width: 80px; style="float:${direction}; margin: 2.5%; border-radius: 6px; border: 3px solid #fff;" class=image-link></a>
-			<h2 style="text-align:${direction}">${name}<br>
-			<i class="${symbol1}"></i><i class="${symbol2}"></i></h2>
+			<div style="float:${direction}; margin: 2.5%;"> 
+				<a href="/${characterlink}/"><img src="https://astaryuu.cc${filelink}" style="display: block; max-height: 160px; border-radius: 6px; border: 3px solid #fff; margin: auto;" class=image-link></a>
+			</div>
+			<h2 style="float:${direction}; text-align:${direction}; vertical-align: middle; display: inline;">${name}<br><i class="${symbol1}"></i><i class="${symbol2}"></i></h2>
 		</div>
 	</div>`
 	});
