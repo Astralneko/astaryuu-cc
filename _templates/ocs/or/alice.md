@@ -99,7 +99,7 @@ Alice can "connect" or "link" to any sentient being, described as a "non-invasiv
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #6200e4">Social Links</span>
 {% endtextbox %}{% textbox 33 %}
 <!-- //////////////////// MUSIC PLAYER //////////////////// -->
-<div style="float: right; width: 25%;">
+<div style="float: right; width: 50%;">
 	<!-- //////////////////// MUSIC BUTTON //////////////////// -->
 	<div style="display: flow; float: right;>
 		<!-- //////////////////// YOUTUBE OR OTHER EMBED LINK - place the keysmash between embed/ ? with the YT link of your video (specifically, the keysmash found at the end of 'watch?v='). DO NOT remove ?modestbranding=1 //////////////////// -->
