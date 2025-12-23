@@ -172,12 +172,12 @@ Alice can "connect" or "link" to any sentient being, described as a "non-invasiv
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20191013.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20191027.jpg" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20191125.jpg" %}
+{% oc-image "<a href='https://deviantart.com/flow-urrs'>Flow-urrs</a>" "assets/oc-art/alice/flow-urrs-20200305.jpg" %}
+{% oc-image "<a href='https://deviantart.com/oct0plasm'>Oct0plasm</a>" "assets/oc-art/alice/oct0plasm-20200316.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20200329.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20200329-2.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20201029.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20240529.png" %}
-{% oc-image "<a href='https://deviantart.com/flow-urrs'>Flow-urrs</a>" "assets/oc-art/alice/flow-urrs-20200305.jpg" %}
-{% oc-image "<a href='https://deviantart.com/oct0plasm'>Oct0plasm</a>" "assets/oc-art/alice/oct0plasm-20200316.png" %}
 {% textbox 5 %}
 ## Pokémon Form
 {% endtextbox %}
