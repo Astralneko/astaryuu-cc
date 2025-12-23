@@ -32,8 +32,8 @@ The following are members of the Vermilion Guild, or otherwise involved in the q
 {% oc-link-div "Kinabukasan" "/assets/icons/coming_soon.png" "ocs/pmd/kinabukasan" "keyboard" "cat" "right" %}
 {% oc-link-div "Yasifatan" "/assets/icons/coming_soon.png" "ocs/pmd/yasifatan" "gear" "shield" "left" %}
 {% placeholder %}
-{% oc-link-div "Holly" "/assets/icons/coming_soon.png" "ocs/pmd/ginger" "money-bill-wave" "mobile-screen" "right" %}
-{% oc-link-div "Andromeda" "/assets/icons/coming_soon.png" "ocs/pmd/halite" "gun" "mask" "left" %}
+{% oc-link-div "Holly" "/assets/icons/coming_soon.png" "ocs/pmd/holly" "money-bill-wave" "mobile-screen" "right" %}
+{% oc-link-div "Andromeda" "/assets/icons/andromeda.png" "ocs/pmd/andromeda" "gun" "mask" "left" %}
 {% placeholder %}
 {% oc-link-div "Cocoa" "/assets/icons/cocoa.png" "ocs/pmd/cocoa" "money-bill-wave" "mobile-screen" "right" %}
 {% oc-link-div "Almond" "/assets/icons/almond.png" "ocs/pmd/halite" "gun" "mask" "left" %}
