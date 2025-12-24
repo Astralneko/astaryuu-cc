@@ -5,11 +5,11 @@ description: "a character from Astaryuu's fan project Pokémon Mystery Dungeon: 
 container: 5col
 ---
 <!-- 
-	Main color: 78342b
+	Main color: 3b3732
 	Outline color: efefef
 -->
 {% textbox 5 "haslinks" %}
-		<h1 style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #78342b">
+		<h1 style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3b3732">
 			Cahaya Koko
 		</h1>
 		<p>the clone created for evil</p>
@@ -24,7 +24,7 @@ container: 5col
 <div class=textbox-link><a href="/devlog">devlog</a></div>
 <div class=textbox-link-last><a href="/whois">who is</a></div>
 {% endtextbox-link %}{% textbox 2 %}
-# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #78342b">Traits</span>
+# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3b3732">Traits</span>
 <table style="width: 90%;">
 	<tr>
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
@@ -71,16 +71,16 @@ container: 5col
 	</tr>
 </table>
 {% endtextbox %}{% textbox 33 %}
-# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #78342b">Overview</span>
+# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3b3732">Overview</span>
 Cahaya is a former human who was transported to the world of Pokémon by [Paradox](/ocs/pmd/paradox/), who turned her into an Eevee. She was later discovered by [Sahara](/ocs/pmd/sahara/), who brought her back to Vermilion Guild. Soon after, she chose to join her rescue team, Team Lyre.
 {% endtextbox %}{% textbox 3 %}
-# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #78342b">Backstory</span>
+# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3b3732">Backstory</span>
 
 {% endtextbox %}{% textbox 42 %}
-# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #78342b">Abilities</span>
+# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3b3732">Abilities</span>
 
 {% endtextbox %}{% textbox 2 %}
-# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #78342b">Social Links</span>
+# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3b3732">Social Links</span>
 {% endtextbox %}{% textbox 33 %}
 <!-- //////////////////// MUSIC PLAYER //////////////////// -->
 <div style="float: right; width: 75%;">
@@ -91,7 +91,7 @@ Cahaya is a former human who was transported to the world of Pokémon by [Parado
 		
 		<!-- //////////////////// HEX BUTTON //////////////////// -->
 		<div style="
-		background: #78342b;
+		background: #3b3732;
 		clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); height: 50px; width: 60px;">
 			<p style="font-size: 50%; color: #efefef; text-align: center; vertical-align: middle;"><br><i class="fal fa-cassette-tape fa-2x" style="font-size: 400%;"></i></p>
 		</div>
@@ -103,13 +103,13 @@ Cahaya is a former human who was transported to the world of Pokémon by [Parado
 			1px -1px #efefef,
 			-1px -1px #efefef,
 			-1px 1px #efefef;
-		color: #78342b;"><b>Keep Going!</b></span>
+		color: #3b3732;"><b>Keep Going!</b></span>
 		<br>Nota
 	</p>
 </div>
 <!-- //////////////////// END MUSIC PLAYER - all other trivia can go below //////////////////// -->
 
-# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #78342b">Trivia</span>
+# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3b3732">Trivia</span>
 {% endtextbox %}
 {% oc-image "Astaryuu" "assets/oc-art/cahaya/astaryuu-20220119.png" %}
 {% oc-image "<a href='https://toyhou.se/KyokoPoke'>KyokoPoke</a>" "assets/oc-art/cahaya/kyokopoke-20220731.jpg" %}
