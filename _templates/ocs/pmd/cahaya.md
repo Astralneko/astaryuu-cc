@@ -1,6 +1,6 @@
 ---
 layout: outer_ayakashi.njk
-title: Kanashi
+title: Cahaya
 description: "a character from Astaryuu's fan project Pokémon Mystery Dungeon: Light in the Shadows"
 container: 5col
 ---
@@ -10,7 +10,7 @@ container: 5col
 -->
 {% textbox 5 "haslinks" %}
 		<h1 style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #78342b">
-			Kanashi
+			Cahaya Koko
 		</h1>
 		<p>the clone created for evil</p>
 {% endtextbox %}{% textbox-link %}
@@ -30,13 +30,7 @@ container: 5col
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Species</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			Jirachi
-		</p></td>
-	</tr><tr>
-		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
-			<b>Traits</b>
-		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			Weremon
+			Eevee
 		</p></td>
 	</tr><tr>
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
@@ -54,7 +48,7 @@ container: 5col
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Age</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			Unknown
+			16
 		</p></td>
 	</tr><tr>
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
@@ -66,7 +60,7 @@ container: 5col
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Height</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			15.7 inches
+			16.6 inches
 		</p></td>
 	</tr><tr>
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
@@ -78,7 +72,7 @@ container: 5col
 </table>
 {% endtextbox %}{% textbox 33 %}
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #78342b">Overview</span>
-Kanashi is a clone of [Sachi](/ocs/pmd/sachi) created by an undescribed scientist<sup>(LitS)</sup>/Jinhai Inferuno<sup>(DA)</sup> who was bitten by a weremon in order to try and control her. Now she lives with the weremon of Lilac Woods. While she was created to counteract Sachi, she's not kept on a tight leash.
+Cahaya is a former human who was transported to the world of Pokémon by [Paradox](/ocs/pmd/paradox/), who turned her into an Eevee. She was later discovered by [Sahara](/ocs/pmd/sahara/), who brought her back to Vermilion Guild. Soon after, she chose to join her rescue team, Team Lyre.
 {% endtextbox %}{% textbox 3 %}
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #78342b">Backstory</span>
 
@@ -116,7 +110,15 @@ Kanashi is a clone of [Sachi](/ocs/pmd/sachi) created by an undescribed scientis
 <!-- //////////////////// END MUSIC PLAYER - all other trivia can go below //////////////////// -->
 
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #78342b">Trivia</span>
-+ Kanashi's tags are based on those of my Ghost-type Eeveelution, [Matareon](https://pkmnrisu.miraheze.org/wiki/Matareon_(Pokémon)).
-
 {% endtextbox %}
-{% oc-image "Astaryuu" "assets/oc-art/kanashi/astaryuu-20210304.png" %}
+{% oc-image "Astaryuu" "assets/oc-art/cahaya/astaryuu-20220119.png" %}
+{% oc-image "<a href='https://toyhou.se/KyokoPoke'>KyokoPoke</a>" "assets/oc-art/cahaya/kyokopoke-20220731.jpg" %}
+{% oc-image "<a href='https://toyhou.se/Densunes'>Densunes</a>" "assets/oc-art/cahaya/densunes-20221220.png" %}
+{% oc-image "<a href='https://bsky.app/profile/did:plc:ffnf6dsol2qttdvbdom5mg4j'>LotsofLatté</a>" "assets/oc-art/cahaya/lotsoflatte-20221108.png" %}
+{% oc-image "<a href='https://bsky.app/profile/did:plc:ffnf6dsol2qttdvbdom5mg4j'>LotsofLatté</a>" "assets/oc-art/cahaya/lotsoflatte-20221108-2.png" %}
+{% oc-image "<a href='https://bsky.app/profile/did:plc:ffnf6dsol2qttdvbdom5mg4j'>LotsofLatté</a>" "assets/oc-art/cahaya/lotsoflatte-20221108-3.png" %}
+{% oc-image "<a href='https://bsky.app/profile/did:plc:ffnf6dsol2qttdvbdom5mg4j'>LotsofLatté</a>" "assets/oc-art/cahaya/lotsoflatte-20221108-4.png" %}
+{% oc-image "<a href='https://toyhou.se/ilooklikebingus'>ilooklikebingus</a>" "assets/oc-art/cahaya/ilooklikebingus-20221220.jpg" %}
+{% oc-image "<a href='https://twitter.com/Redpenn4'>Redpenn4</a>" "assets/oc-art/cahaya/redpenn4-20230121.png" %}
+{% oc-image "<a href='https://dreamcastingdust.tumblr.com/'>DreamcastingDust</a>" "assets/oc-art/cahaya/densunes-20230817.png" %}
+{% oc-image "Astaryuu" "assets/oc-art/cahaya/astaryuu-20231027.jpg" %}
