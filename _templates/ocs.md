@@ -7,7 +7,6 @@ container: 2col
 {% textbox 2 "haslinks" %}
 # Star Dragon's Den: Characters
 A list of characters I've made. Click the links to see each category's characters!
-
 {% endtextbox %}{% textbox-link %}
 <div class="textbox-link-first"><a href="/">home</a></div>
 <div class=textbox-link><a href="/arcadia">arcadia</a></div>
