@@ -4,18 +4,22 @@ title: Astaryuu's Characters
 description: the website of Astaryuu
 container: 2col
 ---
-{% textbox 2 "haslinks" %}
-# Star Dragon's Den: Characters
-A list of characters I've made. Click the links to see each category's characters!
-{% endtextbox %}{% textbox-link %}
-<div class="textbox-link-first"><a href="/">home</a></div>
-<div class=textbox-link><a href="/arcadia">arcadia</a></div>
-<div class=textbox-link><a href="/lutera">lutera</a></div>
-<div class=textbox-link><a href="/conlang">conlang</a></div>
-<div class="textbox-link textbox-link-active"><a href="/ocs">ocs</a></div>
-<div class=textbox-link><a href="/devlog">devlog</a></div>
-<div class=textbox-link-last><a href="/whois">who is</a></div>
-{% endtextbox-link %}{% textbox %}
+<div class="textbox grid-colspan-4">
+	<div class=textbox-inner>
+		<h1>Star Dragon's Den: Characters</h1>
+		<p>A list of characters I've made. Click the links to see each category's characters!</p>
+	</div>
+	<div class=textbox-links>
+		<div class="textbox-link-first"><a href="/">home</a></div>
+		<div class=textbox-link><a href="/arcadia">arcadia</a></div>
+		<div class=textbox-link><a href="/lutera">lutera</a></div>
+		<div class=textbox-link><a href="/conlang">conlang</a></div>
+		<div class="textbox-link textbox-link-active"><a href="/ocs">ocs</a></div>
+		<div class=textbox-link><a href="/devlog">devlog</a></div>
+		<div class=textbox-link-last><a href="/whois">who is</a></div>
+	</div>
+</div>
+{% textbox %}
 # Original Content
 ## [Outrealm](/ocs/or/) <i class="fas fa-star"></i>
 <hr style="width: 80%; background-color:#ccc">
