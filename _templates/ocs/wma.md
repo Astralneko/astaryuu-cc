@@ -5,7 +5,7 @@ description: characters made by Astaryuu
 container: 4col
 ---
 {% textbox 4 %}
-# National Mana League
+# Weapons of Mass Appeal
 Characters from the world of [Valkyrie](/arcadia/weapons-mass-appeal/).
 
 {% endtextbox %}
