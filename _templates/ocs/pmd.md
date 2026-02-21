@@ -120,4 +120,4 @@ The following are characters not directly planned for use in either of the above
 {% oc-link-div "Utsuho" "/assets/icons/utsuho.png" "ocs/pmd/utsuho" "keyboard" "cat" "right" %}
 {% oc-link-div "Veloci" "/assets/icons/veloci.png" "ocs/pmd/veloci" "gun" "mask" "left" %}
 {% oc-link-div "Yukue" "/assets/icons/yukue.png" "ocs/pmd/yukue" "keyboard" "cat" "right" %}
-{% oc-link-div "Yushari" "/assets/icons/yushari.jpg" "ocs/pmd/yushari" "keyboard" "cat" "left" %}
+{% oc-link-div "Yushari" "/assets/icons/yushari.png" "ocs/pmd/yushari" "keyboard" "cat" "left" %}
