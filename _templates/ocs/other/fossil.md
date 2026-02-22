@@ -108,7 +108,7 @@ Yuyu originally haunted what happened to be Fossil's adoptive parents' house upo
 	<!-- //////////////////// MUSIC BUTTON //////////////////// -->
 	<div style="display: flow; float: right;>
 		<!-- //////////////////// YOUTUBE OR OTHER EMBED LINK - place the keysmash between embed/ ? with the YT link of your video (specifically, the keysmash found at the end of 'watch?v='). DO NOT remove ?modestbranding=1 //////////////////// -->
-		<iframe src="https://www.youtube-nocookie.com/embed/P2uAts6PmSg?modestbranding=1" frameborder="0" style="position: absolute; width: 2.1em; height: 1.7em; margin-left:15px; margin-top: 12px; z-index: 1; opacity: 0;"></iframe>
+		<iframe src="https://www.youtube-nocookie.com/embed/aM5Exmbfr60?modestbranding=1" frameborder="0" style="position: absolute; width: 2.1em; height: 1.7em; margin-left:15px; margin-top: 12px; z-index: 1; opacity: 0;"></iframe>
 		
 		<!-- //////////////////// HEX BUTTON //////////////////// -->
 		<div style="
@@ -124,8 +124,8 @@ Yuyu originally haunted what happened to be Fossil's adoptive parents' house upo
 			1px -1px #efefef,
 			-1px -1px #efefef,
 			-1px 1px #efefef;
-		color: #9a8a6d;"><b>Keep Going!</b></span>
-		<br>Nota
+		color: #9a8a6d;"><b>Myths You Forgot</b></span>
+		<br>Camellia, Toby Fox
 	</p>
 </div>
 <!-- //////////////////// END MUSIC PLAYER - all other trivia can go below //////////////////// -->
