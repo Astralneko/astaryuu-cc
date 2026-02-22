@@ -1,6 +1,6 @@
 ---
 layout: outer_ayakashi.njk
-title: Madeline
+title: Fossil
 description: "one of Astaryuu's characters"
 container: 5col
 ---
