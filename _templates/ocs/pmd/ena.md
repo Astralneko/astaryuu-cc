@@ -66,7 +66,7 @@ container: 5col
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Designer</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			[pearlousthetic](https://toyhou.se/pearlousthetic)
+			<a href="https://toyhou.se/pearlousthetic">pearlousthetic</a>
 		</p></td>
 	</tr>
 </table>

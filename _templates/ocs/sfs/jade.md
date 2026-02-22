@@ -1,6 +1,6 @@
 ---
 layout: outer_ayakashi.njk
-title: Nanaya
+title: Jade
 description: "a character from Astaryuu's fan project Sonic Fallen Stars"
 container: 5col
 ---
@@ -10,7 +10,7 @@ container: 5col
 -->
 {% textbox 5 "haslinks" %}
 		<h1 style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #bd6582">
-			Nanāya
+			Jade
 		</h1>
 		<p>transformed lost soul</p>
 {% endtextbox %}{% textbox-link %}
@@ -30,7 +30,7 @@ container: 5col
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Species</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			Raccoon
+			Dragon
 		</p></td>
 	</tr><tr>
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
@@ -66,15 +66,19 @@ container: 5col
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Designer</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			<a href="https://www.facebook.com/ArtofGinCalico">ArtofGinCalico</a>
+			Astaryuu
 		</p></td>
 	</tr>
 </table>
 {% endtextbox %}{% textbox 33 %}
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #bd6582">Overview</span>
 
+Ancient dragon priest, specializes in water manipulation.
+
 {% endtextbox %}{% textbox 3 %}
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #bd6582">Backstory</span>
+
+A long time ago, she was sent off bt the lunalight tribe to find one of the sacred Element Artifacts, the Sparkling Sapphire specifically. unfortunately, she was followed by bandits who tried to kill her to steal it for themselves, so she sealed herself in the sapphire. centuries later, she was revived by a certain raccoon who found the gem in a cave.
 
 {% endtextbox %}{% textbox 42 %}
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #bd6582">Abilities</span>
@@ -112,5 +116,6 @@ container: 5col
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #bd6582">Trivia</span>
 
 {% endtextbox %}
-{% oc-image "<a href='https://www.facebook.com/ArtofGinCalico'>ArtofGinCalico</a>" "assets/oc-art/nanaya/azulgeck0-20220421.png" %}
-{% oc-image "<a href='https://www.facebook.com/ArtofGinCalico'>ArtofGinCalico</a>" "assets/oc-art/nanaya/azulgeck0-20220421-2.png" %}
+{% oc-image "Astaryuu" "assets/oc-art/jade/astaryuu-20211008.png" %}
+{% oc-image "Astaryuu" "assets/oc-art/jade/astaryuu-20221228.jpeg" %}
+{% oc-image "Astaryuu" "assets/oc-art/jade/astaryuu-20240225.jpeg" %}

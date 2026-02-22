@@ -1,20 +1,20 @@
 ---
 layout: outer_ayakashi.njk
-title: Nanaya
-description: "a character from Astaryuu's fan project Sonic Fallen Stars"
+title: Repun
+description: "a character from Astaryuu's fan project Splatoon Eternal Thunderstorm"
 container: 5col
 ---
 <!-- 
-	Main color: bd6582
+	Main color: 3c8c79
 	Outline color: efefef
 -->
 {% textbox 5 "haslinks" %}
-		<h1 style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #bd6582">
-			Nanāya
+		<h1 style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3c8c79">
+			Repun Kamuy
 		</h1>
 		<p>transformed lost soul</p>
 {% endtextbox %}{% textbox-link %}
-<div>a <a href="/ocs/sfs/">Sonic</a> character</div>
+<div>a <a href="/ocs/sets/">Splatoon</a> character</div>
 </div><div class=textbox-links>
 <div class="textbox-link-first"><a href="/">home</a></div>
 <div class=textbox-link><a href="/arcadia">arcadia</a></div>
@@ -24,13 +24,13 @@ container: 5col
 <div class=textbox-link><a href="/devlog">devlog</a></div>
 <div class=textbox-link-last><a href="/whois">who is</a></div>
 {% endtextbox-link %}{% textbox 2 %}
-# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #bd6582">Traits</span>
+# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3c8c79">Traits</span>
 <table style="width: 90%;">
 	<tr>
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Species</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			Raccoon
+			Orca Rayling Hybrid
 		</p></td>
 	</tr><tr>
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
@@ -42,13 +42,13 @@ container: 5col
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Gender</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			Feminine
+			Agender
 		</p></td>
 	</tr><tr>
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Age</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			16
+			20
 		</p></td>
 	</tr><tr>
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
@@ -60,27 +60,27 @@ container: 5col
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Height</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			3 ft. 4 in.
+			5 ft. 5 in.
 		</p></td>
 	</tr><tr>
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Designer</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			<a href="https://www.facebook.com/ArtofGinCalico">ArtofGinCalico</a>
+			<a href="https://toyhou.se/LazyOctoling">LazyOctoling</a>
 		</p></td>
 	</tr>
 </table>
 {% endtextbox %}{% textbox 33 %}
-# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #bd6582">Overview</span>
+# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3c8c79">Overview</span>
 
 {% endtextbox %}{% textbox 3 %}
-# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #bd6582">Backstory</span>
+# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3c8c79">Backstory</span>
 
 {% endtextbox %}{% textbox 42 %}
-# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #bd6582">Abilities</span>
+# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3c8c79">Abilities</span>
 
 {% endtextbox %}{% textbox 2 %}
-# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #bd6582">Social Links</span>
+# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3c8c79">Social Links</span>
 {% endtextbox %}{% textbox 33 %}
 <!-- //////////////////// MUSIC PLAYER //////////////////// -->
 <div style="float: right; width: 75%;">
@@ -91,7 +91,7 @@ container: 5col
 		
 		<!-- //////////////////// HEX BUTTON //////////////////// -->
 		<div style="
-		background: #bd6582;
+		background: #3c8c79;
 		clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); height: 50px; width: 60px;">
 			<p style="font-size: 50%; color: #efefef; text-align: center; vertical-align: middle;"><br><i class="fal fa-cassette-tape fa-2x" style="font-size: 400%;"></i></p>
 		</div>
@@ -103,14 +103,13 @@ container: 5col
 			1px -1px #efefef,
 			-1px -1px #efefef,
 			-1px 1px #efefef;
-		color: #bd6582;"><b>Keep Going!</b></span>
+		color: #3c8c79;"><b>Keep Going!</b></span>
 		<br>Nota
 	</p>
 </div>
 <!-- //////////////////// END MUSIC PLAYER - all other trivia can go below //////////////////// -->
 
-# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #bd6582">Trivia</span>
+# <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3c8c79">Trivia</span>
 
 {% endtextbox %}
-{% oc-image "<a href='https://www.facebook.com/ArtofGinCalico'>ArtofGinCalico</a>" "assets/oc-art/nanaya/azulgeck0-20220421.png" %}
-{% oc-image "<a href='https://www.facebook.com/ArtofGinCalico'>ArtofGinCalico</a>" "assets/oc-art/nanaya/azulgeck0-20220421-2.png" %}
+{% oc-image "<a href='https://toyhou.se/LazyOctoling'>LazyOctoling</a>" "assets/oc-art/aradaze/lazyoctoling-20230314.png" %}

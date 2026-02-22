@@ -66,7 +66,7 @@ container: 5col
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Designer</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			[NuzzyRubwekh](https://toyhou.se/NuzzyRubwekh)
+			<a href="https://toyhou.se/NuzzyRubwekh">NuzzyRubwekh</a>
 		</p></td>
 	</tr>
 </table>
