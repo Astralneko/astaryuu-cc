@@ -1,6 +1,6 @@
 ---
 layout: outer_ayakashi.njk
-title: Megan
+title: Mochi
 description: "a character from Astaryuu's fan project Pokémon Mystery Dungeon: Light in the Shadows"
 container: 5col
 ---
@@ -10,11 +10,11 @@ container: 5col
 -->
 {% textbox 5 "haslinks" %}
 		<h1 style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #ea54ad">
-			Madaikaka
+			Mochi Yelato
 		</h1>
 		<p>transformed lost soul</p>
 {% endtextbox %}{% textbox-link %}
-<div>a <a href="/ocs/other/">Outrealm?</a> character</div>
+<div>a <a href="/ocs/pmd/">Pokémon</a> character</div>
 </div><div class=textbox-links>
 <div class="textbox-link-first"><a href="/">home</a></div>
 <div class=textbox-link><a href="/arcadia">arcadia</a></div>
@@ -111,8 +111,6 @@ Truly sweet. Mochi is largely based on the dessert she’s named after. A while 
 
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #ea54ad">Trivia</span>
 
-* Its voice modulator normally has a feminine Australian accent.
-* It really likes Vocaloid songs, and often play them when bored.
 {% endtextbox %}
 {% oc-image "Astaryuu" "assets/oc-art/mochi/astaryuu-20190915.png" %}
 {% oc-image "<a href='https://toyhou.se/PantherKing239'>PantherKing239</a>" "assets/oc-art/mochi/pantherking239-20191105.png" %}

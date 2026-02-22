@@ -39,9 +39,9 @@ Characters from the world of [Lutera](/lutera/), a world of humans and Pokémon 
 {% oc-link-div "Cirrina" "/assets/icons/cirrina.png" "ocs/ars/cirrina" "bolt" "moon" "left" %}
 {% oc-link-div "Embla" "/assets/icons/embla.png" "ocs/ars/embla" "bolt" "moon" "right" %}
 {% oc-link-div "January" "/assets/icons/january.png" "ocs/ars/january" "bolt" "moon" "left" %}
-{% oc-link-div "Mackenzie" "/assets/icons/mackenzie.png" "ocs/ars/mackenzie" "bolt" "moon" "right" %}
-{% oc-link-div "Mahina" "/assets/icons/mahina.jpg" "ocs/ars/mahina" "bolt" "moon" "left" %}
-{% oc-link-div "Naoshan" "/assets/icons/naoshan.png" "ocs/ars/naoshan" "bolt" "moon" "right" %}
-{% placeholder %}
+{% oc-link-div "Lynnie" "/assets/icons/lynnie.png" "ocs/ars/lynnie" "bolt" "moon" "right" %}
+{% oc-link-div "Mackenzie" "/assets/icons/mackenzie.png" "ocs/ars/mackenzie" "bolt" "moon" "left" %}
+{% oc-link-div "Mahina" "/assets/icons/mahina.jpg" "ocs/ars/mahina" "bolt" "moon" "right" %}
+{% oc-link-div "Naoshan" "/assets/icons/naoshan.png" "ocs/ars/naoshan" "bolt" "moon" "left" %}
 {% placeholder %}
 {% placeholder %}

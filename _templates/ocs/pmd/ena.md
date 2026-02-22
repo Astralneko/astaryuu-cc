@@ -110,5 +110,6 @@ container: 5col
 <!-- //////////////////// END MUSIC PLAYER - all other trivia can go below //////////////////// -->
 
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #2e3e77">Trivia</span>
+
 {% endtextbox %}
 {% oc-image "<a href='https://toyhou.se/pearlousthetic'>pearlousthetic</a>" "assets/oc-art/ena/pearlousthetic-20210215.png" %}

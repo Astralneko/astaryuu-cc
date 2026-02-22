@@ -10,11 +10,11 @@ container: 5col
 -->
 {% textbox 5 "haslinks" %}
 		<h1 style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #8dbb82">
-			Madaikaka
+			Megan
 		</h1>
 		<p>transformed lost soul</p>
 {% endtextbox %}{% textbox-link %}
-<div>a <a href="/ocs/other/">Outrealm?</a> character</div>
+<div>a <a href="/ocs/pmd/">Pokémon</a> character</div>
 </div><div class=textbox-links>
 <div class="textbox-link-first"><a href="/">home</a></div>
 <div class=textbox-link><a href="/arcadia">arcadia</a></div>
@@ -111,8 +111,6 @@ A Plusle whose Egg hatched in a Dynamax Den. Therefore, she can manipulate Dynam
 
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #8dbb82">Trivia</span>
 
-* Its voice modulator normally has a feminine Australian accent.
-* It really likes Vocaloid songs, and often play them when bored.
 {% endtextbox %}
 {% oc-image "Astaryuu" "assets/oc-art/megan/astaryuu-20220429.png" %}
 {% oc-image "<a href='https://toyhou.se/CosmicMinun59'>CosmicMinun59</a>" "assets/oc-art/megan/cosmicminun59-20220502.png" %}
