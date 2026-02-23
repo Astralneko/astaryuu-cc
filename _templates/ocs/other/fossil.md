@@ -12,7 +12,7 @@ container: 5col
 		<h1 style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #9a8a6d">
 			Fossil Renyukari
 		</h1>
-		<p>kawaii glowy mushroom girl</p>
+		<p>mother of mud bogs</p>
 {% endtextbox %}{% textbox-link %}
 <div>a <a href="/ocs/other/">Outrealm?</a> character</div>
 </div><div class=textbox-links>

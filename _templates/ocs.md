@@ -40,6 +40,9 @@ container: 2col
 <hr style="width: 80%; background-color:#ccc">
 
 ## [Yokai City](/ocs/ykc/) <i class="fas fa-torii-gate"></i>
+
+## [Others](/ocs/other/) 
+
 {% endtextbox %}{% textbox %}
 # Fan Content
 ## [Pokémon Mystery Dungeon: Light in the Shadows](/ocs/pmd/) <i class="fas fa-sun"></i>
@@ -67,6 +70,7 @@ container: 2col
 <hr style="width: 80%; background-color:#ccc">
 
 ## [The Legend of Zelda: Four Winds](/ocs/lozfw/) <i class="fas fa-meteor"></i>
+
 <hr style="width: 80%; background-color:#ccc">
 
 {% endtextbox %}
