@@ -83,7 +83,7 @@ níańíomyr nia ŧanai vi znen mie visaꜥanig, ji̦ƨaima ꞓon jaƶmo̦ ƨo̦
 
 {% endtextbox %}{% textbox %}
 ## Download and history
-**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Normal.ttf)** - version 0.875
+**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Normal.ttf)** - version 0.91
 There are also other styles available: [Bold](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Bold.ttf) [Oblique](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Italic.ttf) [Both](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Bold-Italic.ttf)
 
 The download is current as of October 8, 2025. History below:
@@ -116,6 +116,7 @@ The download is current as of October 8, 2025. History below:
 - November 13, 2025, v.0.875 - Fix Nenevesian long vowel, add like 2 more kanji.
 - November 17, 2025, v.0.876 - Add Rokadong double a (finally).
 - December 16, 2025, v.0.90 - Added connecting forms for most Arabic characters that currently exist in the font.
+- March 13, 2026, v.0.91 - Added Kardonian Interastral Standard Script.
 Future goals:
 - Add support for polytonic Greek. (v.1.1?)
 - Complete support for Arabic and Syriac. (v.1.0?)
