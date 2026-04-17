@@ -117,6 +117,7 @@ The download is current as of October 8, 2025. History below:
 - November 17, 2025, v.0.876 - Add Rokadong double a (finally).
 - December 16, 2025, v.0.90 - Added connecting forms for most Arabic characters that currently exist in the font.
 - March 13, 2026, v.0.91 - Added Kardonian Interastral Standard Script.
+- April 16, 2026, v.0.92 - Random small capital letters I guess.
 Future goals:
 - Add support for polytonic Greek. (v.1.1?)
 - Complete support for Arabic and Syriac. (v.1.0?)
