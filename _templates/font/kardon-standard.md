@@ -20,7 +20,11 @@ container: 2col
 	</div>
 </div>
 {% textbox 2 %}
-<span style="font-family: 'AH Kardon Standard'">This font was created primarily to hold Kardonian-language text. It does, however, support most Latin and Cyrillic-script text. It's based on an older font by the name of Buran USSR. With its angular shapes, it is a somewhat stylized form of Kardonian, but works well. It's already pretty bold, so it can look unreadable in bold fonts. I will likely make a thinner version at some point, but not right now.</span>
+<span style="font-family: 'AH Kardon Standard'">This font was created primarily to hold Kardonian-language text. It does, however, support most Latin and Cyrillic-script text. It's based on an older font by the name of Buran USSR. With its angular shapes, it is a somewhat stylized form of Kardonian, but works well. It'll take a lot of work to get Kardonian to play nice with Rokajang Shika anyway, since curves are my beloathed.
+
+AH Kardon Standard is already pretty bold, so it can look unreadable in bold tags depending on how your font renderer generates bold fonts... I will likely make a thinner version at some point, but not right now.
+
+AH Kardon Standard's version of the Kardonian Interastral Standard Alphabet was the first to include ligatures that stack the letters used in diphthongs and the affricate clusters /ts dz/. This will come to Truth and Ideals and AH Rokajang Shika soon, likely not using unencoded codepoints like AH Kardon Standard does because Truth and Ideals in particular has a morbillion characters. Even if it does so, it isn't recommended to place the diphthongs on your keyboard. (I really should upload my Keyman and xKeyboard scripts at some point...)</span>
 {% endtextbox %}{% textbox %}
 ## <span style="font-family: 'AH Kardon Standard'">Example texts in various scripts</span>
 ### <span style="font-family: 'AH Kardon Standard'">Latin</span>

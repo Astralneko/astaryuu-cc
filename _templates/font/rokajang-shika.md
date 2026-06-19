@@ -20,9 +20,9 @@ container: 2col
 	</div>
 </div>
 {% textbox 2 %}
-<span style="font-family: 'AH Rokajang Shika'">This was my first attempt at making a non-pixelated script since AH Ahexlus so long ago. Funnily enough, that one was named after the alpha version of Rokadong, while this one is named after the modern version.
+<span style="font-family: 'AH Rokajang Shika'">This was my first attempt at making a non-pixelated script since AH Ahexlus so long ago. Funnily enough, that one was named after the alpha version of Rokadong, while this one is named after the modern version. It's based on [Truth and Ideals](/font/truth-ideals), essentially "depixelating" the glyphs into more curvy shapes.
 
-It supports several Astaryuu scripts. Currently, Lunarian and Kardon Interastral are not fully supported and not supported respectively.</span>
+It supports several Astaryuu scripts. Currently, Lunarian and Kardon Interastral are not fully supported and not supported respectively. However, Rokadong and Liðakuin are both supported.</span>
 {% endtextbox %}{% textbox %}
 ## <span style="font-family: 'AH Rokajang Shika'">Example texts in various scripts</span>
 ### <span style="font-family: 'AH Rokajang Shika'">Latin</span>
