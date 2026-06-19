@@ -46,6 +46,11 @@
 }
 
 @font-face {
+  font-family: "AH Kardon Standard";
+  src: local("AH Kardon Standard"), url("https://hoard.astaryuu.cc/astaryuu/fonts/AH-Kardon-Standard.ttf") format(truetype);
+}
+
+@font-face {
   font-family: "Unifont";
   size-adjust: 117%;
   src: local("Unifont"), url("https://hoard.astaryuu.cc/astaryuu/fonts/unifont-15.1.05.otf") format(opentype);
