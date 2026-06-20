@@ -177,6 +177,7 @@ Alice can "connect" or "link" to any sentient being, described as a "non-invasiv
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20200329.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20200329-2.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20201029.png" %}
+{% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20201226.jpg" %}
 {% oc-image "Astaryuu" "assets/oc-art/alice/astaryuu-20240529.png" %}
 {% textbox 5 %}
 ## Pokémon Form
