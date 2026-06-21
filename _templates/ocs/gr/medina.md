@@ -126,4 +126,4 @@ A gamer at heart, Medina tries out this game called "Deltaverse". However, when 
 {% oc-image "<a href='https://twitter.com/lotsoflatte'>LotsofLatté</a>" "assets/oc-art/medina/lotsoflatte-20230120.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/medina/astaryuu-20240725.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/medina/astaryuu-20240725-2.png" %}
-{% oc-image "AriBiri" "assets/oc-art/medina/aribiri-20250320.png" %}
+{% oc-image "<a href='https://bsky.app/profile/aribiri.bsky.social'>AriBiri</a>" "assets/oc-art/medina/aribiri-20250320.png" %}

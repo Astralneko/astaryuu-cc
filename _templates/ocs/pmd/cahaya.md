@@ -12,7 +12,7 @@ container: 5col
 		<h1 style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #3b3732">
 			Cahaya Koko
 		</h1>
-		<p>the clone created for evil</p>
+		<p></p>
 {% endtextbox %}{% textbox-link %}
 <div>a <a href="/ocs/pmd/">Pokémon</a> character</div>
 </div><div class=textbox-links>
@@ -60,7 +60,7 @@ container: 5col
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
 			<b>Height</b>
 		</p></th><td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: left;">
-			16.6 inches
+			16.6 inches (as Eevee)
 		</p></td>
 	</tr><tr>
 		<td style="border: 0px;"><p style="margin: 3px 10px 3px; text-align: right;">
@@ -114,11 +114,12 @@ Cahaya is a former human who was transported to the world of Pokémon by [Parado
 {% oc-image "Astaryuu" "assets/oc-art/cahaya/astaryuu-20220119.png" %}
 {% oc-image "<a href='https://toyhou.se/KyokoPoke'>KyokoPoke</a>" "assets/oc-art/cahaya/kyokopoke-20220731.jpg" %}
 {% oc-image "<a href='https://toyhou.se/Densunes'>Densunes</a>" "assets/oc-art/cahaya/densunes-20221220.png" %}
-{% oc-image "<a href='https://bsky.app/profile/did:plc:ffnf6dsol2qttdvbdom5mg4j'>LotsofLatté</a>" "assets/oc-art/cahaya/lotsoflatte-20221108.png" %}
-{% oc-image "<a href='https://bsky.app/profile/did:plc:ffnf6dsol2qttdvbdom5mg4j'>LotsofLatté</a>" "assets/oc-art/cahaya/lotsoflatte-20221108-2.png" %}
-{% oc-image "<a href='https://bsky.app/profile/did:plc:ffnf6dsol2qttdvbdom5mg4j'>LotsofLatté</a>" "assets/oc-art/cahaya/lotsoflatte-20221108-3.png" %}
-{% oc-image "<a href='https://bsky.app/profile/did:plc:ffnf6dsol2qttdvbdom5mg4j'>LotsofLatté</a>" "assets/oc-art/cahaya/lotsoflatte-20221108-4.png" %}
+{% oc-image "<a href='https://bsky.app/profile/lotsoflatte.bsky.social'>LotsofLatté</a>" "assets/oc-art/cahaya/lotsoflatte-20221108.png" %}
+{% oc-image "<a href='https://bsky.app/profile/lotsoflatte.bsky.social'>LotsofLatté</a>" "assets/oc-art/cahaya/lotsoflatte-20221108-2.png" %}
+{% oc-image "<a href='https://bsky.app/profile/lotsoflatte.bsky.social'>LotsofLatté</a>" "assets/oc-art/cahaya/lotsoflatte-20221108-3.png" %}
+{% oc-image "<a href='https://bsky.app/profile/lotsoflatte.bsky.social'>LotsofLatté</a>" "assets/oc-art/cahaya/lotsoflatte-20221108-4.png" %}
 {% oc-image "<a href='https://toyhou.se/ilooklikebingus'>ilooklikebingus</a>" "assets/oc-art/cahaya/ilooklikebingus-20221220.jpg" %}
 {% oc-image "<a href='https://twitter.com/Redpenn4'>Redpenn4</a>" "assets/oc-art/cahaya/redpenn4-20230121.png" %}
 {% oc-image "<a href='https://dreamcastingdust.tumblr.com/'>DreamcastingDust</a>" "assets/oc-art/cahaya/densunes-20230817.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/cahaya/astaryuu-20231027.jpg" %}
+{% oc-image "<a href='https://artfight.net/~Taneon'>Taneon</a>" "assets/oc-art/cahaya/taneon-20240718.png" %}
