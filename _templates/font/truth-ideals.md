@@ -84,7 +84,7 @@ níańíomyr nia ŧanai vi znen mie visaꜥanig, ji̦ƨaima ꞓon jaƶmo̦ ƨo̦
 {% endtextbox %}{% textbox %}
 ## Download and history
 **[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Normal.ttf)** - version 0.91
-There are also other styles available: [Bold](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Bold.ttf) [Oblique](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Italic.ttf) [Both](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Bold-Italic.ttf)
+<br>There is also [Bold](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Bold.ttf) available. [Oblique](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Italic.ttf) and [Both](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Bold-Italic.ttf) versions also exist, but are not fully updated.
 
 The download is current as of October 8, 2025. History below:
 - (April 2023, v.0.2) - Ripped the font from the Pokémon games.
@@ -118,9 +118,17 @@ The download is current as of October 8, 2025. History below:
 - December 16, 2025, v.0.90 - Added connecting forms for most Arabic characters that currently exist in the font.
 - March 13, 2026, v.0.91 - Added Kardonian Interastral Standard Script.
 - April 16, 2026, v.0.92 - Random small capital letters I guess.
+- June 28, 2026, v.0.93 - Even *more* small changes:
+	- Moved old characters that were over the circled and parenthesized numerals to the beginning of PUA.
+	- Added actual circled, parenthesized, and dotted numerals where they were.
+	- Added more music notes.
+	- Fixed Rokadong extended syllables for la, ra, rra, ma, na, nya.
+	- Fixed/added all Rokadong doubly-extended syllables.
+	- Began working on Devanagari.
 Future goals:
-- Add support for polytonic Greek. (v.1.1?)
 - Complete support for Arabic and Syriac. (v.1.0?)
+- Complete support for Devanagari. (v1.1?)
+- Complete support for polytonic Greek. (v.1.2?)
 - Possibly add more kanji, as, as you can see above, some of the more popular kanji were not in the font rip.
 
 {% endtextbox %}{% textbox 2 %}
