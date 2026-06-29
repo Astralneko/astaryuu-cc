@@ -83,10 +83,10 @@ níańíomyr nia ŧanai vi znen mie visaꜥanig, ji̦ƨaima ꞓon jaƶmo̦ ƨo̦
 
 {% endtextbox %}{% textbox %}
 ## Download and history
-**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Normal.ttf)** - version 0.91
+**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Normal.ttf)** - version 0.93
 <br>There is also [Bold](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Bold.ttf) available. [Oblique](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Italic.ttf) and [Both](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Bold-Italic.ttf) versions also exist, but are not fully updated.
 
-The download is current as of October 8, 2025. History below:
+The download is current as of June 28, 2026. History below:
 - (April 2023, v.0.2) - Ripped the font from the Pokémon games.
 - (June 2023, v.0.3) - Updated to support Greek and basic Cyrillic.
 - (July 2023, v.0.4) - Updated to support basic IPA.
