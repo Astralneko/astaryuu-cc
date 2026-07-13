@@ -14,7 +14,7 @@ container: 5col
 		</h1>
 		<p>rescued robot rabbit</p>
 {% endtextbox %}{% textbox-link %}
-<div>a <a href="/ocs/pmd/">Pokémon</a> character</div>
+<div>a <a href="/ocs/tafo/">Tachyon Force</a> character</div>
 </div><div class=textbox-links>
 <div class="textbox-link-first"><a href="/">home</a></div>
 <div class=textbox-link><a href="/arcadia">arcadia</a></div>
