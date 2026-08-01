@@ -121,4 +121,4 @@ Bianca got out of the blender first, and, finding this process really cool, acti
 {% endtextbox %}
 {% oc-image "Astaryuu" "assets/oc-art/bianca/astaryuu-20200511.png" %}
 {% oc-image "Astaryuu" "assets/oc-art/bianca/astaryuu-20200514.png" %}
-{% oc-image "<a href='https://www.deviantart.com/cosmicminun59'>CosmicMinun59</a>" "assets/oc-art/bianca/cosmicminun59-20200521.png" %}
+{% oc-image "<a href='https://www.deviantart.com/cosmicminun59'>CosmicMinun59</a>" "assets/oc-art/bianca/cosmicminun59-20200521.jpg" %}

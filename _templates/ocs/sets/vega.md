@@ -112,4 +112,4 @@ container: 5col
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #ea7aaa">Trivia</span>
 
 {% endtextbox %}
-{% oc-image "<a href='https://toyhou.se/LazyOctoling'>LazyOctoling</a>" "assets/oc-art/aradaze/lazyoctoling-20230216.png" %}
+{% oc-image "<a href='https://toyhou.se/LazyOctoling'>LazyOctoling</a>" "assets/oc-art/vega/lazyoctoling-20230216.png" %}
