@@ -28,5 +28,5 @@ container: 3col
 {% endtextbox-link %}
   
 {% textbox 3 "haslinks" %}
-    <p>I'm a "cringe" fanfic writer, yes. This page is under construction, but soon will contain every AU I have that <i>isn't</i> Pokémon. That's because Pokémon Rising Sun Project goes on <a href="/lutera/">its own top-level section</a>.</p>
+    I'm a "cringe" fanfic writer, yes. This page is under construction, but soon will contain every AU I have that *isn't* Pokémon. That's because Pokémon Rising Sun Project goes on [its own top-level section](/lutera/).
 {% endtextbox %}
