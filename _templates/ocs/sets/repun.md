@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Repun
 description: "a character from Astaryuu's fan project Splatoon Eternal Thunderstorm"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: 3c8c79

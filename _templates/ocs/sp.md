@@ -3,6 +3,7 @@ layout: oc-page.njk
 title: Snow Phoenix Characters
 description: original characters made by Astaryuu
 container: 4col
+date: Last Modified
 ---
 {% textbox 4 %}
 # Snow Phoenix and the Slumbering Dragon

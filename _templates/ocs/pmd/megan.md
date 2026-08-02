@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Megan
 description: "a character from Astaryuu's fan project Pokémon Mystery Dungeon: Light in the Shadows"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: 8dbb82

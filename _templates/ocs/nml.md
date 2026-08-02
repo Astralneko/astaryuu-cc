@@ -3,6 +3,7 @@ layout: oc-page.njk
 title: National Mana League Characters
 description: characters made by Astaryuu
 container: 4col
+date: Last Modified
 ---
 {% textbox 4 %}
 # National Mana League

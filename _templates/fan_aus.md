@@ -3,6 +3,7 @@ layout: outer_chaos_angel.njk
 title: Astaryuu's AUs
 description: homepage for fanfic and other such fan content by Astaryuu
 container: 3col
+date: Last Modified
 ---
 <div class="textbox grid-colspan-3">
 	<div class=textbox-inner>

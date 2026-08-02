@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Fossil
 description: "one of Astaryuu's characters"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: 9a8a6d

@@ -3,6 +3,7 @@ layout: oc-page.njk
 title: Pokémon Mystery Dungeon Characters
 description: fan characters made by Astaryuu
 container: 4col
+date: Last Modified
 ---
 {% textbox 4 %}
 # Pokémon Mystery Dungeon: Light in the Shadows

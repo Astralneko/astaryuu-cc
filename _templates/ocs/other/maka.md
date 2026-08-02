@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Maka
 description: "one of Astaryuu's characters"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: 8dbb82

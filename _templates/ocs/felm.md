@@ -3,6 +3,7 @@ layout: oc-page.njk
 title: Fire Emblem Lake of Mist Characters
 description: fan characters made by Astaryuu
 container: 4col
+date: Last Modified
 ---
 {% textbox 4 %}
 # Fire Emblem: Lake of Mist

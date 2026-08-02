@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Izu-oshima
 description: "a character from Astaryuu's fan project Splatoon Eternal Thunderstorm"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: 9bd1ed

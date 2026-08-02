@@ -3,6 +3,7 @@ layout: outer_chaos_angel.njk
 title: Astaryuu's Conlangs
 description: homepage for conlangs by Astaryuu
 container: 2col
+date: Last Modified
 ---
 	<div class="textbox grid-colspan-2">
 	<div class=textbox-inner>

@@ -3,6 +3,7 @@ layout: oc-page.njk
 title: M&L Ballad of Kings Characters
 description: fan characters made by Astaryuu
 container: 4col
+date: Last Modified
 ---
 {% textbox 4 %}
 # Mario and Luigi: Ballad of Kings

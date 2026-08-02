@@ -3,6 +3,7 @@ layout: oc-page.njk
 title: Kirby Darkness Rising Characters
 description: fan characters made by Astaryuu
 container: 4col
+date: Last Modified
 ---
 {% textbox 4 %}
 # Kirby: Darkness Rising

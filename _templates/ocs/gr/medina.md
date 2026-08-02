@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Medina
 description: "a character from Astaryuu's fan project Glitchrune"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: 718d7c

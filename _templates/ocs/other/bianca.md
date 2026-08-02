@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Bianca
 description: "one of Astaryuu's characters"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: e43e3e

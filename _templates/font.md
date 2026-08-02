@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Star Dragon Text Productions
 description: Astaryuu's main font project
 container: 3col
+date: Last Modified
 ---
 <div class="textbox grid-colspan-3">
 	<div class=textbox-inner>

@@ -3,6 +3,7 @@ layout: outer_chaos_angel.njk
 title: Arcadian Odyssey Extended Universe
 description: homepage for original content by Astaryuu
 container: 3col
+date: Last Modified
 ---
 <div class="textbox grid-colspan-3">
 	<div class=textbox-inner>

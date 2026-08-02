@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Lynnie
 description: "a character from Astaryuu's fan project Pokémon Rising Sun Project"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: 7c7c7c

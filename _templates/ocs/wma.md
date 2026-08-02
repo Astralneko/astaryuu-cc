@@ -3,6 +3,7 @@ layout: oc-page.njk
 title: Weapons of Mass Appeal Characters
 description: characters made by Astaryuu
 container: 4col
+date: Last Modified
 ---
 {% textbox 4 %}
 # Weapons of Mass Appeal

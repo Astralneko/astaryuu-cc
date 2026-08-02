@@ -3,6 +3,7 @@ layout: oc-page.njk
 title: Other Characters
 description: characters made by Astaryuu
 container: 4col
+date: Last Modified
 ---
 {% textbox 4 %}
 # Other

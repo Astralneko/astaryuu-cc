@@ -3,6 +3,7 @@ layout: oc-page.njk
 title: Tachyon Force Characters
 description: original characters made by Astaryuu
 container: 4col
+date: Last Modified
 ---
 {% textbox 4 %}
 # Tachyon Force

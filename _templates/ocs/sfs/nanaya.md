@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Nanaya
 description: "a character from Astaryuu's fan project Sonic Fallen Stars"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: bd6582

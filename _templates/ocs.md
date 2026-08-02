@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Astaryuu's Characters
 description: the website of Astaryuu
 container: 2col
+date: Last Modified
 ---
 <div class="textbox grid-colspan-4">
 	<div class=textbox-inner>

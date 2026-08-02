@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Solin
 description: "a character from Astaryuu's fan project Glitchrune"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: 4f4f4f

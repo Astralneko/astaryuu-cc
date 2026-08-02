@@ -3,6 +3,7 @@ layout: oc-page.njk
 title: LoZ Four Winds Characters
 description: fan characters made by Astaryuu
 container: 4col
+date: Last Modified
 ---
 {% textbox 4 %}
 # Legend of Zelda: Four Winds

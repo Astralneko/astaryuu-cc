@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Ena
 description: "a character from Astaryuu's fan project Pokémon Mystery Dungeon: Light in the Shadows"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: 2e3e77

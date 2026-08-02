@@ -3,6 +3,7 @@ layout: oc-page.njk
 title: Splatoon Eternal Thunderstorm Characters
 description: fan characters made by Astaryuu
 container: 4col
+date: Last Modified
 ---
 {% textbox 4 %}
 # Splatoon Eternal Thunderstorm

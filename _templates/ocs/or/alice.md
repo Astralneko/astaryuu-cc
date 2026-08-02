@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Alice
 description: "a character from Astaryuu's project Outrealm"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: 6200e4

@@ -3,6 +3,7 @@ layout: oc-page.njk
 title: Sonic Fallen Stars Characters
 description: fan characters made by Astaryuu
 container: 4col
+date: Last Modified
 ---
 {% textbox 4 %}
 # Sonic Fallen Stars

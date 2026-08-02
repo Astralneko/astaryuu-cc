@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Evelyn
 description: "a character from Astaryuu's project Outrealm"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: b70012

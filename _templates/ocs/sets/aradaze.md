@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Aradaze
 description: "a character from Astaryuu's fan project Splatoon Eternal Thunderstorm"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: 8b329b

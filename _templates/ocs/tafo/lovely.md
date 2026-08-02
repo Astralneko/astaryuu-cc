@@ -3,6 +3,7 @@ layout: outer_ayakashi.njk
 title: Lovely
 description: "a character from Astaryuu's project Tachyon Force"
 container: 5col
+date: Last Modified
 ---
 <!-- 
 	Main color: c4f976
