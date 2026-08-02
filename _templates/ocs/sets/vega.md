@@ -13,17 +13,18 @@ container: 5col
 			Vega Nasr
 		</h1>
 		<p>transformed lost soul</p>
-{% endtextbox %}{% textbox-link %}
+{% endtextbox %}<div class=textbox-links>
 <div>a <a href="/ocs/sets/">Splatoon</a> character</div>
 </div><div class=textbox-links>
-<div class="textbox-link-first"><a href="/">home</a></div>
-<div class=textbox-link><a href="/arcadia">arcadia</a></div>
-<div class=textbox-link><a href="/lutera">lutera</a></div>
-<div class=textbox-link><a href="/conlang">conlang</a></div>
-<div class="textbox-link textbox-link-active"><a href="/ocs">ocs</a></div>
-<div class=textbox-link><a href="/devlog">devlog</a></div>
-<div class=textbox-link-last><a href="/whois">who is</a></div>
-{% endtextbox-link %}{% textbox 2 %}
+	<div class="textbox-link-first"><a href="/">home</a></div>
+	<div class=textbox-link><a href="/arcadia">arcadia</a></div>
+	<div class=textbox-link><a href="/lutera">lutera</a></div>
+	<div class=textbox-link><a href="/conlang">conlang</a></div>
+	<div class="textbox-link textbox-link-active"><a href="/ocs">ocs</a></div>
+	<div class=textbox-link><a href="/devlog">devlog</a></div>
+	<div class=textbox-link-last><a href="/whois">who is</a></div>
+</div></div>
+{% textbox 2 %}
 # <span style="text-shadow: 2px 2px #efefef, 2px 0px #efefef, 2px -2px #efefef, 0px -2px #efefef, -2px -2px #efefef, -2px 0px #efefef, -2px 2px #efefef, 0px 2px #efefef; color: #ea7aaa">Traits</span>
 <table style="width: 90%;">
 	<tr>

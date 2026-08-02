@@ -4,6 +4,21 @@ title: Astaryuu's AUs
 description: homepage for fanfic and other such fan content by Astaryuu
 container: 3col
 ---
+<div class="textbox grid-colspan-3">
+	<div class=textbox-inner>
+		<h1>Astaryuu's Fan AUs</h1>
+		<p>fanfiction moment</p>
+	</div>
+	<div class=textbox-links>
+		<div class=textbox-link-first><a href="/">home</a></div>
+		<div class=textbox-link><a href="/arcadia">arcadia</a></div>
+		<div class="textbox-link link-active"><a href="/lutera">lutera</a></div>
+		<div class=textbox-link><a href="/conlang">conlang</a></div>
+		<div class=textbox-link><a href="/ocs">ocs</a></div>
+		<div class=textbox-link><a href="/devlog">devlog</a></div>
+		<div class=textbox-link-last><a href="/whois">who is</a></div>
+	</div>
+</div>
 {% textbox 3 "haslinks" %}
       <h1>Astaryuu's Fan AUs</h1>
       <p>fanfiction moment</p>

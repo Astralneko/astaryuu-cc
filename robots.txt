@@ -42,4 +42,4 @@ Disallow: /assets/
 User-agent: *
 Allow: /
 
-Sitemap: https://astaryuu.neocities.org/sitemap.xml
+Sitemap: https://astaryuu.cc/sitemap.xml

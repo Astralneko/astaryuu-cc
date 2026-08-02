@@ -1,4 +1,16 @@
+import safeLinks from '@sardine/eleventy-plugin-external-links';
+import sitemap from '@quasibit/eleventy-plugin-sitemap';
+
 export default async function(eleventyConfig) {
+	// Safe Links
+	await eleventyConfig.addPlugin(safeLinks);
+	// Sitemap
+	await eleventyConfig.addPlugin(sitemap, {
+		sitemap: {
+			hostname: "https://astaryuu.cc",
+		}
+	});
+	
 	// Enable markdownit deflist
 	
 	// Shortcodes used in content templates
@@ -43,7 +55,7 @@ export default async function(eleventyConfig) {
 		return `	<div class="textbox" style="width: 100%;">
 		<div class="textbox-inner">
 			<div style="float:${direction}; margin: 2.5%;"> 
-				<a href="/${characterlink}/"><img src="https://astaryuu.cc${filelink}" style="display: block; height: 40%; max-height: 100px; border-radius: 6px; border: 3px solid #fff; margin: auto;" class=image-link></a>
+				<a href="/${characterlink}/"><img src="https://astaryuu.cc${filelink}" style="display: block; height: 40%; max-height: 200px; border-radius: 6px; border: 3px solid #fff; margin: auto;" class=image-link></a>
 			</div>
 			<h2 style="float:${direction}; text-align:${direction}; vertical-align: middle; display: inline;">${name}<br><i class="${symbol1}"></i><i class="${symbol2}"></i></h2>
 		</div>
@@ -61,6 +73,11 @@ export default async function(eleventyConfig) {
 		return `<div class="textbox">
 		<div class="textbox-inner"><a href="/${image_link}"><img src="/${thumb_link}" style="border-radius: 6px; border: 3px solid #fff; max-height: 200px;"></a><br>${credit}</div></div>`
 	});
+	
+	eleventyConfig.addShortcode("ruby", async function(raw, rubytext){
+		return `<ruby>${raw}<rp>(</rp><rt>${rubytext}</rt><rp>)</rp></ruby>`
+	});
+	
 };
 
 // This named export is optional
