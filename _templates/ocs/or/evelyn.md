@@ -15,7 +15,7 @@ date: Last Modified
 		</h1>
 		<p>ice-cold demoness</p>
 {% endtextbox %}<div class=textbox-links>
-<div>a <a href="/ocs/other/">Outrealm?</a> character</div>
+<div>a <a href="/ocs/or/">Outrealm</a> character</div>
 </div><div class=textbox-links>
 	<div class="textbox-link-first"><a href="/">home</a></div>
 	<div class=textbox-link><a href="/arcadia">arcadia</a></div>
