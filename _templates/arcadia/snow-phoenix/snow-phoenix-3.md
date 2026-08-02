@@ -25,7 +25,7 @@ container: 1col
       <div class=textbox-link><a href="/arcadia/drawn-to-afterlife"><i class="fa-solid fa-fire-flame-simple"></i></a></div>
       <div class=textbox-link><a href="/arcadia/yokai-city"><i class="fa-solid fa-torii-gate"></i></a></div>
       <div class=textbox-link><a href="/arcadia/glitchrune"><i class="fa-solid fa-chess-knight"></i></a></div>
-      <div class=textbox-link-last><a href="/arcadia/other"><i class="fa-solid fa-signal"></i></a></div>
+      <div class=textbox-link-last><a href="/arcadia/chroma-city"><i class="fa-solid fa-signal"></i></a></div>
     </div>
 </div>
 {% textbox 1 %}
