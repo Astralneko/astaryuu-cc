@@ -24,7 +24,7 @@ container: 2col
 
 <span style="font-family: 'AH Yuyancika Konjata'">IT IS A VERY NARROW TYPE, BUT HAS INTERESTING METRICS. SIMILAR TO THOSE OF TRUTH. SIMILAR TO THOSE OF IDEALS. NUMBERS AND ACCENTS HAVE BEEN ADDED AS WELL.</span>
 
-<span style="font-family: 'AH Yuyancika Konjata'">IT ALSO SUPPORTS THE TEXT OF THE KANVAS, TELAJANG IN FULL. IN THEIR LANGUAGE, THE NAME MEANS <THE END OF DELTARUNE>.</span>
+<span style="font-family: 'AH Yuyancika Konjata'">IT ALSO SUPPORTS THE TEXT OF THE KANVAS, TELAJANG IN FULL. IN THEIR LANGUAGE, THE NAME MEANS &lt;THE END OF DELTARUNE&gt;.</span>
 {% endtextbox %}{% textbox %}
 ## <span style="font-family: 'AH Yuyancika Konjata'">Example texts in various scripts</span>
 ### <span style="font-family: 'AH Yuyancika Konjata'">Latin</span>
