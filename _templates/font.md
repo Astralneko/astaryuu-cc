@@ -39,3 +39,12 @@ For the record, fonts of mine generally start with "AH" because I used to produc
 ## [AH Kardon Standard](/font/kardon-standard/) <i class="fas fa-paw"></i>
 
 {% endtextbox %}
+{% textbox 1 %}
+## [AH ‘Amera-Maċeda](/font/amera-macheda/) <i class="fas fa-paw"></i>
+
+{% endtextbox %}
+{% placeholder %}
+{% textbox 1 %}
+## [AH Yuyancika Konjata](/font/yuyancika-konjata/) <i class="fas fa-paw"></i>
+
+{% endtextbox %}
