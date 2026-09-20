@@ -28,23 +28,32 @@ container: 2col
 {% endtextbox %}{% textbox %}
 ## <span style="font-family: 'AH Yuyancika Konjata'">Example texts in various scripts</span>
 ### <span style="font-family: 'AH Yuyancika Konjata'">Latin</span>
-<span style="font-family: 'AH Yuyancika Konjata'">THE PROPHECY, WHICH WHISPERS AMONG THE SHADOWS. THE LEGEND OF THIS WORLD. <DELTARUNE.>
-IT STARTED ONCE UPON A TIME A LEGEND SPOKE IN SHADOWD RHYME, OF LIGHT AND DARK AND LOVE AND HATE.
-THE HOPES AND DREAMS THAT GOVERN FATE, A WORLD BASKED IN PUREST LIGHT. BENEATH IT, GREW ETERNAL NIGHT. IF FOUNTAINS FREED, THE ROARING CRIES. AND TITANS SHAPE FROM DARKENED EYES.
-THE LIGHT AND DARK, BOTH BURNING DIRE. A COUNTDOWN TO THE EARTH'S EXPIRE. BUT LO, ON HOPES AND DREAMS THEY SEND: THREE HEROES AT THE WORLD'S END. THE FIRST HERO: THE PRINCE, ALONE IN DEEPEST DARK. THE SECOND HERO: THE CAGE, WITH HUMAN SOUL AND PARTS. AND LAST, WAS THE GIRL. AT LAST, WAS THE GIRL. THE THIRD HERO: THE GIRL, WITH HOPE CROSSED ON HER HEART.
-THE KNIGHT WHICH MAKES WITH BLACKENED KNIFE. SHALL DUEL WITH HEROES STRIFE BY STRIFE. THEY'LL HEAR THE RING OF HEAVEN'S CALL. THEY'LL SEE THE TAIL OF HELL TAKE CRAWL.
-THE QUEEN'S CHARIOT CANNOT BE STOPPED. THE LORD OF SCREENS CLEAVED RED BY BLADE. AXE CARVED BY THE TORTOISE'S GRAND HAMMER. THE FLOWER MAN, TRAPPED IN ASYLUM. LOVE FINDS ITS WAY TO THE GIRL. COLDWATER FALLS FROM THE TOP OF THE SKY.
-AND THEN. WHEN ALL HOPE IS LOST FOR THE TALE, THE FINAL TRAGEDY UNVEILS. THE LAST PROPHECY. THE STORY'S END. TO SAVE THE WORLDS, THERE IS ONLY ONE WAY.
+<span style="font-family: 'AH Yuyancika Konjata'">THE PROPHECY, WHICH WHISPERS AMONG THE SHADOWS. THE LEGEND OF THIS WORLD. <DELTARUNE.></span>
 
-ONLY THEN, WILL THE WORLDS BE SAVED. THE ANGEL, BANISHED, WILL FINALLY MEET WITH ITS DESIRE.</span>
+<span style="font-family: 'AH Yuyancika Konjata'">IT STARTED ONCE UPON A TIME A LEGEND SPOKE IN SHADOWD RHYME, OF LIGHT AND DARK AND LOVE AND HATE.</span>
+
+<span style="font-family: 'AH Yuyancika Konjata'">THE HOPES AND DREAMS THAT GOVERN FATE, A WORLD BASKED IN PUREST LIGHT. BENEATH IT, GREW ETERNAL NIGHT. IF FOUNTAINS FREED, THE ROARING CRIES. AND TITANS SHAPE FROM DARKENED EYES.</span>
+
+<span style="font-family: 'AH Yuyancika Konjata'">THE LIGHT AND DARK, BOTH BURNING DIRE. A COUNTDOWN TO THE EARTH'S EXPIRE. BUT LO, ON HOPES AND DREAMS THEY SEND: THREE HEROES AT THE WORLD'S END. THE FIRST HERO: THE PRINCE, ALONE IN DEEPEST DARK. THE SECOND HERO: THE CAGE, WITH HUMAN SOUL AND PARTS. AND LAST, WAS THE GIRL. AT LAST, WAS THE GIRL. THE THIRD HERO: THE GIRL, WITH HOPE CROSSED ON HER HEART.</span>
+
+<span style="font-family: 'AH Yuyancika Konjata'">THE KNIGHT WHICH MAKES WITH BLACKENED KNIFE. SHALL DUEL WITH HEROES STRIFE BY STRIFE. THEY'LL HEAR THE RING OF HEAVEN'S CALL. THEY'LL SEE THE TAIL OF HELL TAKE CRAWL.</span>
+
+<span style="font-family: 'AH Yuyancika Konjata'">THE QUEEN'S CHARIOT CANNOT BE STOPPED. THE LORD OF SCREENS CLEAVED RED BY BLADE. AXE CARVED BY THE TORTOISE'S GRAND HAMMER. THE FLOWER MAN, TRAPPED IN ASYLUM. LOVE FINDS ITS WAY TO THE GIRL. COLDWATER FALLS FROM THE TOP OF THE SKY.</span>
+
+<span style="font-family: 'AH Yuyancika Konjata'">AND THEN. WHEN ALL HOPE IS LOST FOR THE TALE, THE FINAL TRAGEDY UNVEILS. THE LAST PROPHECY. THE STORY'S END. TO SAVE THE WORLDS, THERE IS ONLY ONE WAY.</span>
+
+[]
+
+<span style="font-family: 'AH Yuyancika Konjata'">ONLY THEN, WILL THE WORLDS BE SAVED. THE ANGEL, BANISHED, WILL FINALLY MEET WITH ITS DESIRE.</span>
 
 {% endtextbox %}{% textbox %}
 ## Download and history
 **[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/AH-Yuyancika-Konjata-Regular.ttf)** - version 4.1.04
 
 The download is current as of 20 Sept 2026. History below:
-- September 20, 2026 - First release of AH Yuyancika Konjata, containing full Latin and Rokadong support.
+- September 20, 2026, v4.1.04 - First release of AH Yuyancika Konjata, containing full Latin and Rokadong support.
+- September 20, 2026, v4.1.05 - I somehow forgot the ligatures. This has been corrected.
 
-And yes, the name does technically mean that.  refers to "the end of the world", but  means both "world" and "game" (since one makes a world when they play a game). Meanwhile  means "the mark of change" - the DELTA RUNE. It also conveniently happens to have an odd number of characters, which is important for reasons. Taken altogether, Yuyancika Konjata means "the end of Deltarune", albeit in a slightly morbid fashion.
+And yes, the name does technically mean that. 󴀀 refers to "the end of the world", but  means both "world" and "game" (since one makes a world when they play a game). Meanwhile  means "the mark of change" - the DELTA RUNE. It also conveniently happens to have an odd number of characters, which is important for reasons. Taken altogether, Yuyancika Konjata means "the end of Deltarune", albeit in a slightly morbid fashion.
 
 {% endtextbox %}
