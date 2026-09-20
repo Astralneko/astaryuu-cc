@@ -52,6 +52,7 @@
 
 @font-face {
   font-family: "AH Amera-Macheda";
+  size-adjust: 160%;
   src: local("AH 'Amera-Macheda"), url("https://hoard.astaryuu.cc/astaryuu/fonts/AH-'Amera-Macheda-Regular.ttf") format(truetype);
 }
 
