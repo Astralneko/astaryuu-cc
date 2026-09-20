@@ -51,12 +51,13 @@
 }
 
 @font-face {
-  font-family: "AH 'Amera-Macheda";
+  font-family: "AH Amera-Macheda";
   src: local("AH 'Amera-Macheda"), url("https://hoard.astaryuu.cc/astaryuu/fonts/AH-'Amera-Macheda-Regular.ttf") format(truetype);
 }
 
 @font-face {
   font-family: "AH Yuyancika Konjata";
+  size-adjust: 150%;
   src: local("AH Yuyancika Konjata"), url("https://hoard.astaryuu.cc/astaryuu/fonts/AH-Yuyancika-Konjata-Regular.ttf") format(truetype);
 }
 
