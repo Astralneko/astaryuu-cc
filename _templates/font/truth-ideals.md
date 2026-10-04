@@ -83,10 +83,10 @@ níańíomyr nia ŧanai vi znen mie visaꜥanig, ji̦ƨaima ꞓon jaƶmo̦ ƨo̦
 
 {% endtextbox %}{% textbox %}
 ## Download and history
-**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Normal.ttf)** - version 0.93
+**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Normal.ttf)** - version 1.01
 <br>There is also [Bold](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Bold.ttf) available. [Oblique](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Italic.ttf) and [Both](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Bold-Italic.ttf) versions also exist, but are not fully updated.
 
-The download is current as of June 28, 2026. History below:
+The download is current as of September 12, 2026. History below:
 - (April 2023, v.0.2) - Ripped the font from the Pokémon games.
 - (June 2023, v.0.3) - Updated to support Greek and basic Cyrillic.
 - (July 2023, v.0.4) - Updated to support basic IPA.
@@ -125,34 +125,40 @@ The download is current as of June 28, 2026. History below:
 	- Fixed Rokadong extended syllables for la, ra, rra, ma, na, nya.
 	- Fixed/added all Rokadong doubly-extended syllables.
 	- Began working on Devanagari.
+- September 12, 2026, v1.01 - Finished support of Arabic. Additionally, a few small changes:
+	- Fixed a couple of Lunarian glyphs.
+	- Added the script for Zewei's language O'eaiā.
+	- Began work on Osage script.
+	- Added vulgar fraction support.
 Future goals:
-- Complete support for Arabic and Syriac. (v.1.0?)
+- Complete support for Syriac. (v.1.3?)
 - Complete support for Devanagari. (v1.1?)
 - Complete support for polytonic Greek. (v.1.2?)
-- Possibly add more kanji, as, as you can see above, some of the more popular kanji were not in the font rip.
+- Possibly add more kanji.
 
 {% endtextbox %}{% textbox 2 %}
 ## <span style="font-family: 'Truth and Ideals - Fighting Ideals'">Truth and Ideals: Small Truths/Fighting Ideals</span>
-<span style="font-family: 'Truth and Ideals - Fighting Ideals'">Truth and Ideals: Small Truths (or just Small Truths) and Truth and Ideals: Fighting Ideals (or just Fighting Ideals) are a small version of Truth and Ideals. In the games Pokémon Black Version 2 and White Version 2, this font displays while in battle for text such as Pokémon nicknames - which can contain any character in the language the game is being played in.
+<span style="font-family: 'Truth and Ideals - Fighting Ideals'">Truth and Ideals: Small Truths (or just Small Truths) and Truth and Ideals: Fighting Ideals (or just Fighting Ideals) are a small version of Truth and Ideals. In the games Pokémon Black Version 2 and White Version 2, this font displays while in battle for text such as Pokémon nicknames - which can contain any character in the language the game is being played in.</span>
 
-Therefore, the small font must be as featured as the main font, and as main Truth and Ideals updates the main font to support way more scripts, so do these fonts for the small font. (As expected, the name Fighting Ideals is a reference to the location where it appears: in battle.)
+<span style="font-family: 'Truth and Ideals - Fighting Ideals'">Therefore, the small font must be as featured as the main font, and as main Truth and Ideals updates the main font to support way more scripts, so do these fonts for the small font. (As expected, the name Fighting Ideals is a reference to the location where it appears: in battle.)</span>
 
-Fighting Ideals maintains the same ascender and descender sizes as Truth and Ideals, while Small Truths reduces them to values that better fit Fighting Ideals's glyphs.
+<span style="font-family: 'Truth and Ideals - Fighting Ideals'">Fighting Ideals maintains the same ascender and descender sizes as Truth and Ideals, while Small Truths reduces them to values that better fit Fighting Ideals's glyphs.</span>
 
-Note that while the main body of Truth and Ideals is based on a character size of 10x5, Fighting Ideals reduces that to 7x3. This means Fighting Ideals is significantly less readable than Truth and Ideals. There will be more characters that break the width restriction in Fighting Ideals than in Truth and Ideals, but there will likely still be readability issues.
+<span style="font-family: 'Truth and Ideals - Fighting Ideals'">Note that while the main body of Truth and Ideals is based on a character size of 10x5, Fighting Ideals reduces that to 7x3. This means Fighting Ideals is significantly less readable than Truth and Ideals. There will be more characters that break the width restriction in Fighting Ideals than in Truth and Ideals, but there will likely still be readability issues.</span>
 
-Additionally, because Fighting Ideals is not the main font, it is not as far along. The version number is based on the main font versioning - that is, v0.3 of Truth and Ideals: Fighting Ideals is reached when progress is equal to v0.3 of Truth and Ideals, and so on.
+<span style="font-family: 'Truth and Ideals - Fighting Ideals'">Additionally, because Fighting Ideals is not the main font, it is not as far along. The version number is based on the main font versioning - that is, v0.3 of Truth and Ideals: Fighting Ideals is reached when progress is equal to v0.3 of Truth and Ideals, and so on.</span>
 
-For now, only Fighting Ideals is included on this website. Small Truths will be added later, once Fighting Ideals is more caught up with Truth and Ideals.
+<span style="font-family: 'Truth and Ideals - Fighting Ideals'">For now, only Fighting Ideals is included on this website. Small Truths will be added later, once Fighting Ideals is more caught up with Truth and Ideals.</span>
 
-**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Fighting Ideals-Normal2.ttf)** - version 0.40
+**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/Truth%20And%20Ideals-Fighting%20Ideals-Normal.ttf)** - version 0.60
 
-The download is current as of August 14, 2024.
+The download is current as of October 3, 2026.
 - (April 2023, v.0.2) - Ripped the font from the Pokémon games.
 - (October 2023, v.0.3) - Updated to support Greek.
 - May 20, 2024, v.0.31 - Updated to support basic Cyrillic.
 - August 11, 2024, v.0.32 - Updated some superscript glyphs and added glyphs for modifier letters (combining diacritics are also present, but do not function).
 - August 14, 2024, v.0.40 - Added IPA letters and combining diacritic support (Latin/IPA script only for now).
 - August 14, 2024, v.0.42 - Added Rokadong base characters (no precomposed characters yet).
+- October 3, 2026, v.0.60 - Added Armenian, more Cyrillic, Rokadong precomposed characters, and Liðakuin characters.
 </span>
 {% endtextbox %}
