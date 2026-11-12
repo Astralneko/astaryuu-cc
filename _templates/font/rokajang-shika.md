@@ -33,10 +33,11 @@ container: 2col
 
 {% endtextbox %}{% textbox %}
 ## Download and history
-**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/AHRokajangShika.ttf)** - version 0.75
+**[Download this font](https://hoard.astaryuu.cc/astaryuu/fonts/AHRokajangShika.ttf)** - version 0.80
 
 The download is current as of 18 Jun 2026. History below:
 - December 25, 2025 - AH Rokajang Shika's latest version at the time this page was first created was finished.
 - June 18, 2026 - AH Rokajang Shika was formally released, alongside [Kardon Standard](/font/kardon-standard).
+- November 10, 2026 - Fixed some letterforms (mostly Lunarian) and added some missing IPA letters.
 
 {% endtextbox %}
