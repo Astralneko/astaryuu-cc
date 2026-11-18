@@ -91,7 +91,7 @@ Not long ago, she met a Togetic by the name of [Telur](/ocs/pmd/telur), and they
 	<!-- //////////////////// MUSIC BUTTON //////////////////// -->
 	<div style="display: flow; float: right;>
 		<!-- //////////////////// YOUTUBE OR OTHER EMBED LINK - place the keysmash between embed/ ? with the YT link of your video (specifically, the keysmash found at the end of 'watch?v='). DO NOT remove ?modestbranding=1 //////////////////// -->
-		<iframe src="https://www.youtube-nocookie.com/embed/P2uAts6PmSg?modestbranding=1" frameborder="0" style="position: absolute; width: 2.1em; height: 1.7em; margin-left:15px; margin-top: 12px; z-index: 1; opacity: 0;"></iframe>
+		<iframe src="https://www.youtube-nocookie.com/embed/-PmGetvi5pE?modestbranding=1" frameborder="0" style="position: absolute; width: 2.1em; height: 1.7em; margin-left:15px; margin-top: 12px; z-index: 1; opacity: 0;"></iframe>
 		
 		<!-- //////////////////// HEX BUTTON //////////////////// -->
 		<div style="
@@ -107,8 +107,8 @@ Not long ago, she met a Togetic by the name of [Telur](/ocs/pmd/telur), and they
 			1px -1px #a19378,
 			-1px -1px #a19378,
 			-1px 1px #a19378;
-		color: #fefdf9;"><b>Keep Going!</b></span>
-		<br>Nota
+		color: #fefdf9;"><b>Prism Blow</b></span>
+		<br>shiroka132
 	</p>
 </div>
 <!-- //////////////////// END MUSIC PLAYER - all other trivia can go below //////////////////// -->
